@@ -1,0 +1,4247 @@
+{
+  "aligarh": {
+    "name": "Aligarh",
+    "center": [
+      27.8974,
+      78.088
+    ],
+    "substations": [
+      {
+        "id": "ALI-S1",
+        "label": "Aligarh Substation 1",
+        "lat": 27.91869,
+        "lng": 78.08285,
+        "transformers": [
+          {
+            "id": "ALI-S1-T1",
+            "label": "Trafo 1",
+            "lat": 27.90949,
+            "lng": 78.07729,
+            "meters": [
+              {
+                "id": "ALI-S1-T1-M1",
+                "label": "Meter 1",
+                "lat": 27.90955,
+                "lng": 78.07853
+              },
+              {
+                "id": "ALI-S1-T1-M2",
+                "label": "Meter 2",
+                "lat": 27.90817,
+                "lng": 78.07787
+              },
+              {
+                "id": "ALI-S1-T1-M3",
+                "label": "Meter 3",
+                "lat": 27.90959,
+                "lng": 78.07799
+              },
+              {
+                "id": "ALI-S1-T1-M4",
+                "label": "Meter 4",
+                "lat": 27.90816,
+                "lng": 78.07694
+              },
+              {
+                "id": "ALI-S1-T1-M5",
+                "label": "Meter 5",
+                "lat": 27.90786,
+                "lng": 78.07793
+              },
+              {
+                "id": "ALI-S1-T1-M6",
+                "label": "Meter 6",
+                "lat": 27.90963,
+                "lng": 78.07731
+              },
+              {
+                "id": "ALI-S1-T1-M7",
+                "label": "Meter 7",
+                "lat": 27.91119,
+                "lng": 78.07673
+              },
+              {
+                "id": "ALI-S1-T1-M8",
+                "label": "Meter 8",
+                "lat": 27.91029,
+                "lng": 78.07751
+              },
+              {
+                "id": "ALI-S1-T1-M9",
+                "label": "Meter 9",
+                "lat": 27.90765,
+                "lng": 78.07897
+              },
+              {
+                "id": "ALI-S1-T1-M10",
+                "label": "Meter 10",
+                "lat": 27.91082,
+                "lng": 78.07897
+              }
+            ]
+          },
+          {
+            "id": "ALI-S1-T2",
+            "label": "Trafo 2",
+            "lat": 27.90955,
+            "lng": 78.07287,
+            "meters": [
+              {
+                "id": "ALI-S1-T2-M1",
+                "label": "Meter 1",
+                "lat": 27.91022,
+                "lng": 78.07464
+              },
+              {
+                "id": "ALI-S1-T2-M2",
+                "label": "Meter 2",
+                "lat": 27.90826,
+                "lng": 78.07365
+              },
+              {
+                "id": "ALI-S1-T2-M3",
+                "label": "Meter 3",
+                "lat": 27.90806,
+                "lng": 78.07426
+              },
+              {
+                "id": "ALI-S1-T2-M4",
+                "label": "Meter 4",
+                "lat": 27.90976,
+                "lng": 78.07306
+              },
+              {
+                "id": "ALI-S1-T2-M5",
+                "label": "Meter 5",
+                "lat": 27.91153,
+                "lng": 78.0727
+              },
+              {
+                "id": "ALI-S1-T2-M6",
+                "label": "Meter 6",
+                "lat": 27.90987,
+                "lng": 78.0717
+              },
+              {
+                "id": "ALI-S1-T2-M7",
+                "label": "Meter 7",
+                "lat": 27.91143,
+                "lng": 78.07134
+              },
+              {
+                "id": "ALI-S1-T2-M8",
+                "label": "Meter 8",
+                "lat": 27.90844,
+                "lng": 78.07249
+              },
+              {
+                "id": "ALI-S1-T2-M9",
+                "label": "Meter 9",
+                "lat": 27.9114,
+                "lng": 78.07358
+              },
+              {
+                "id": "ALI-S1-T2-M10",
+                "label": "Meter 10",
+                "lat": 27.90882,
+                "lng": 78.07396
+              }
+            ]
+          },
+          {
+            "id": "ALI-S1-T3",
+            "label": "Trafo 3",
+            "lat": 27.92683,
+            "lng": 78.08695,
+            "meters": [
+              {
+                "id": "ALI-S1-T3-M1",
+                "label": "Meter 1",
+                "lat": 27.92725,
+                "lng": 78.08814
+              },
+              {
+                "id": "ALI-S1-T3-M2",
+                "label": "Meter 2",
+                "lat": 27.92497,
+                "lng": 78.0875
+              },
+              {
+                "id": "ALI-S1-T3-M3",
+                "label": "Meter 3",
+                "lat": 27.92532,
+                "lng": 78.08675
+              },
+              {
+                "id": "ALI-S1-T3-M4",
+                "label": "Meter 4",
+                "lat": 27.92583,
+                "lng": 78.08729
+              },
+              {
+                "id": "ALI-S1-T3-M5",
+                "label": "Meter 5",
+                "lat": 27.92517,
+                "lng": 78.08734
+              },
+              {
+                "id": "ALI-S1-T3-M6",
+                "label": "Meter 6",
+                "lat": 27.92634,
+                "lng": 78.08755
+              },
+              {
+                "id": "ALI-S1-T3-M7",
+                "label": "Meter 7",
+                "lat": 27.9288,
+                "lng": 78.08517
+              },
+              {
+                "id": "ALI-S1-T3-M8",
+                "label": "Meter 8",
+                "lat": 27.92811,
+                "lng": 78.08838
+              },
+              {
+                "id": "ALI-S1-T3-M9",
+                "label": "Meter 9",
+                "lat": 27.9253,
+                "lng": 78.08588
+              },
+              {
+                "id": "ALI-S1-T3-M10",
+                "label": "Meter 10",
+                "lat": 27.92624,
+                "lng": 78.08683
+              }
+            ]
+          },
+          {
+            "id": "ALI-S1-T4",
+            "label": "Trafo 4",
+            "lat": 27.92767,
+            "lng": 78.08844,
+            "meters": [
+              {
+                "id": "ALI-S1-T4-M1",
+                "label": "Meter 1",
+                "lat": 27.92708,
+                "lng": 78.08726
+              },
+              {
+                "id": "ALI-S1-T4-M2",
+                "label": "Meter 2",
+                "lat": 27.92911,
+                "lng": 78.09007
+              },
+              {
+                "id": "ALI-S1-T4-M3",
+                "label": "Meter 3",
+                "lat": 27.92814,
+                "lng": 78.08912
+              },
+              {
+                "id": "ALI-S1-T4-M4",
+                "label": "Meter 4",
+                "lat": 27.92726,
+                "lng": 78.08844
+              },
+              {
+                "id": "ALI-S1-T4-M5",
+                "label": "Meter 5",
+                "lat": 27.92772,
+                "lng": 78.09008
+              },
+              {
+                "id": "ALI-S1-T4-M6",
+                "label": "Meter 6",
+                "lat": 27.9272,
+                "lng": 78.08681
+              },
+              {
+                "id": "ALI-S1-T4-M7",
+                "label": "Meter 7",
+                "lat": 27.92728,
+                "lng": 78.09038
+              },
+              {
+                "id": "ALI-S1-T4-M8",
+                "label": "Meter 8",
+                "lat": 27.92778,
+                "lng": 78.08762
+              },
+              {
+                "id": "ALI-S1-T4-M9",
+                "label": "Meter 9",
+                "lat": 27.92918,
+                "lng": 78.08877
+              },
+              {
+                "id": "ALI-S1-T4-M10",
+                "label": "Meter 10",
+                "lat": 27.92707,
+                "lng": 78.08685
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ALI-S2",
+        "label": "Aligarh Substation 2",
+        "lat": 27.8597,
+        "lng": 78.08743,
+        "transformers": [
+          {
+            "id": "ALI-S2-T1",
+            "label": "Trafo 1",
+            "lat": 27.85914,
+            "lng": 78.08827,
+            "meters": [
+              {
+                "id": "ALI-S2-T1-M1",
+                "label": "Meter 1",
+                "lat": 27.85964,
+                "lng": 78.08925
+              },
+              {
+                "id": "ALI-S2-T1-M2",
+                "label": "Meter 2",
+                "lat": 27.85942,
+                "lng": 78.08841
+              },
+              {
+                "id": "ALI-S2-T1-M3",
+                "label": "Meter 3",
+                "lat": 27.85955,
+                "lng": 78.08719
+              },
+              {
+                "id": "ALI-S2-T1-M4",
+                "label": "Meter 4",
+                "lat": 27.85912,
+                "lng": 78.08849
+              },
+              {
+                "id": "ALI-S2-T1-M5",
+                "label": "Meter 5",
+                "lat": 27.85921,
+                "lng": 78.08724
+              },
+              {
+                "id": "ALI-S2-T1-M6",
+                "label": "Meter 6",
+                "lat": 27.85754,
+                "lng": 78.08911
+              },
+              {
+                "id": "ALI-S2-T1-M7",
+                "label": "Meter 7",
+                "lat": 27.85959,
+                "lng": 78.08646
+              },
+              {
+                "id": "ALI-S2-T1-M8",
+                "label": "Meter 8",
+                "lat": 27.85841,
+                "lng": 78.08634
+              },
+              {
+                "id": "ALI-S2-T1-M9",
+                "label": "Meter 9",
+                "lat": 27.85996,
+                "lng": 78.08756
+              },
+              {
+                "id": "ALI-S2-T1-M10",
+                "label": "Meter 10",
+                "lat": 27.86079,
+                "lng": 78.0891
+              }
+            ]
+          },
+          {
+            "id": "ALI-S2-T2",
+            "label": "Trafo 2",
+            "lat": 27.85081,
+            "lng": 78.07873,
+            "meters": [
+              {
+                "id": "ALI-S2-T2-M1",
+                "label": "Meter 1",
+                "lat": 27.85109,
+                "lng": 78.08025
+              },
+              {
+                "id": "ALI-S2-T2-M2",
+                "label": "Meter 2",
+                "lat": 27.85069,
+                "lng": 78.07748
+              },
+              {
+                "id": "ALI-S2-T2-M3",
+                "label": "Meter 3",
+                "lat": 27.85052,
+                "lng": 78.08037
+              },
+              {
+                "id": "ALI-S2-T2-M4",
+                "label": "Meter 4",
+                "lat": 27.85094,
+                "lng": 78.07821
+              },
+              {
+                "id": "ALI-S2-T2-M5",
+                "label": "Meter 5",
+                "lat": 27.85001,
+                "lng": 78.0782
+              },
+              {
+                "id": "ALI-S2-T2-M6",
+                "label": "Meter 6",
+                "lat": 27.85103,
+                "lng": 78.0796
+              },
+              {
+                "id": "ALI-S2-T2-M7",
+                "label": "Meter 7",
+                "lat": 27.85044,
+                "lng": 78.07832
+              },
+              {
+                "id": "ALI-S2-T2-M8",
+                "label": "Meter 8",
+                "lat": 27.85013,
+                "lng": 78.07817
+              },
+              {
+                "id": "ALI-S2-T2-M9",
+                "label": "Meter 9",
+                "lat": 27.84899,
+                "lng": 78.08051
+              },
+              {
+                "id": "ALI-S2-T2-M10",
+                "label": "Meter 10",
+                "lat": 27.85267,
+                "lng": 78.0789
+              }
+            ]
+          },
+          {
+            "id": "ALI-S2-T3",
+            "label": "Trafo 3",
+            "lat": 27.85424,
+            "lng": 78.08371,
+            "meters": [
+              {
+                "id": "ALI-S2-T3-M1",
+                "label": "Meter 1",
+                "lat": 27.85249,
+                "lng": 78.0819
+              },
+              {
+                "id": "ALI-S2-T3-M2",
+                "label": "Meter 2",
+                "lat": 27.85402,
+                "lng": 78.08372
+              },
+              {
+                "id": "ALI-S2-T3-M3",
+                "label": "Meter 3",
+                "lat": 27.85338,
+                "lng": 78.08532
+              },
+              {
+                "id": "ALI-S2-T3-M4",
+                "label": "Meter 4",
+                "lat": 27.85569,
+                "lng": 78.08189
+              },
+              {
+                "id": "ALI-S2-T3-M5",
+                "label": "Meter 5",
+                "lat": 27.85532,
+                "lng": 78.08567
+              },
+              {
+                "id": "ALI-S2-T3-M6",
+                "label": "Meter 6",
+                "lat": 27.85567,
+                "lng": 78.08282
+              },
+              {
+                "id": "ALI-S2-T3-M7",
+                "label": "Meter 7",
+                "lat": 27.85354,
+                "lng": 78.08566
+              },
+              {
+                "id": "ALI-S2-T3-M8",
+                "label": "Meter 8",
+                "lat": 27.85245,
+                "lng": 78.08484
+              },
+              {
+                "id": "ALI-S2-T3-M9",
+                "label": "Meter 9",
+                "lat": 27.85272,
+                "lng": 78.08311
+              },
+              {
+                "id": "ALI-S2-T3-M10",
+                "label": "Meter 10",
+                "lat": 27.85227,
+                "lng": 78.08511
+              }
+            ]
+          },
+          {
+            "id": "ALI-S2-T4",
+            "label": "Trafo 4",
+            "lat": 27.8583,
+            "lng": 78.08561,
+            "meters": [
+              {
+                "id": "ALI-S2-T4-M1",
+                "label": "Meter 1",
+                "lat": 27.85982,
+                "lng": 78.08742
+              },
+              {
+                "id": "ALI-S2-T4-M2",
+                "label": "Meter 2",
+                "lat": 27.85633,
+                "lng": 78.08641
+              },
+              {
+                "id": "ALI-S2-T4-M3",
+                "label": "Meter 3",
+                "lat": 27.85861,
+                "lng": 78.08648
+              },
+              {
+                "id": "ALI-S2-T4-M4",
+                "label": "Meter 4",
+                "lat": 27.85643,
+                "lng": 78.08684
+              },
+              {
+                "id": "ALI-S2-T4-M5",
+                "label": "Meter 5",
+                "lat": 27.85998,
+                "lng": 78.0868
+              },
+              {
+                "id": "ALI-S2-T4-M6",
+                "label": "Meter 6",
+                "lat": 27.8569,
+                "lng": 78.08734
+              },
+              {
+                "id": "ALI-S2-T4-M7",
+                "label": "Meter 7",
+                "lat": 27.85669,
+                "lng": 78.08696
+              },
+              {
+                "id": "ALI-S2-T4-M8",
+                "label": "Meter 8",
+                "lat": 27.85926,
+                "lng": 78.0876
+              },
+              {
+                "id": "ALI-S2-T4-M9",
+                "label": "Meter 9",
+                "lat": 27.85908,
+                "lng": 78.08535
+              },
+              {
+                "id": "ALI-S2-T4-M10",
+                "label": "Meter 10",
+                "lat": 27.85636,
+                "lng": 78.08577
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ALI-S3",
+        "label": "Aligarh Substation 3",
+        "lat": 27.90672,
+        "lng": 78.06934,
+        "transformers": [
+          {
+            "id": "ALI-S3-T1",
+            "label": "Trafo 1",
+            "lat": 27.90165,
+            "lng": 78.0777,
+            "meters": [
+              {
+                "id": "ALI-S3-T1-M1",
+                "label": "Meter 1",
+                "lat": 27.90218,
+                "lng": 78.07899
+              },
+              {
+                "id": "ALI-S3-T1-M2",
+                "label": "Meter 2",
+                "lat": 27.90071,
+                "lng": 78.07727
+              },
+              {
+                "id": "ALI-S3-T1-M3",
+                "label": "Meter 3",
+                "lat": 27.9013,
+                "lng": 78.07572
+              },
+              {
+                "id": "ALI-S3-T1-M4",
+                "label": "Meter 4",
+                "lat": 27.90193,
+                "lng": 78.07578
+              },
+              {
+                "id": "ALI-S3-T1-M5",
+                "label": "Meter 5",
+                "lat": 27.9031,
+                "lng": 78.07629
+              },
+              {
+                "id": "ALI-S3-T1-M6",
+                "label": "Meter 6",
+                "lat": 27.9034,
+                "lng": 78.07574
+              },
+              {
+                "id": "ALI-S3-T1-M7",
+                "label": "Meter 7",
+                "lat": 27.90364,
+                "lng": 78.07639
+              },
+              {
+                "id": "ALI-S3-T1-M8",
+                "label": "Meter 8",
+                "lat": 27.90218,
+                "lng": 78.07923
+              },
+              {
+                "id": "ALI-S3-T1-M9",
+                "label": "Meter 9",
+                "lat": 27.89986,
+                "lng": 78.07812
+              },
+              {
+                "id": "ALI-S3-T1-M10",
+                "label": "Meter 10",
+                "lat": 27.9025,
+                "lng": 78.07585
+              }
+            ]
+          },
+          {
+            "id": "ALI-S3-T2",
+            "label": "Trafo 2",
+            "lat": 27.90316,
+            "lng": 78.07621,
+            "meters": [
+              {
+                "id": "ALI-S3-T2-M1",
+                "label": "Meter 1",
+                "lat": 27.90331,
+                "lng": 78.07765
+              },
+              {
+                "id": "ALI-S3-T2-M2",
+                "label": "Meter 2",
+                "lat": 27.90153,
+                "lng": 78.07673
+              },
+              {
+                "id": "ALI-S3-T2-M3",
+                "label": "Meter 3",
+                "lat": 27.90377,
+                "lng": 78.07817
+              },
+              {
+                "id": "ALI-S3-T2-M4",
+                "label": "Meter 4",
+                "lat": 27.90489,
+                "lng": 78.07659
+              },
+              {
+                "id": "ALI-S3-T2-M5",
+                "label": "Meter 5",
+                "lat": 27.90221,
+                "lng": 78.07776
+              },
+              {
+                "id": "ALI-S3-T2-M6",
+                "label": "Meter 6",
+                "lat": 27.90382,
+                "lng": 78.07597
+              },
+              {
+                "id": "ALI-S3-T2-M7",
+                "label": "Meter 7",
+                "lat": 27.90485,
+                "lng": 78.07724
+              },
+              {
+                "id": "ALI-S3-T2-M8",
+                "label": "Meter 8",
+                "lat": 27.90419,
+                "lng": 78.07734
+              },
+              {
+                "id": "ALI-S3-T2-M9",
+                "label": "Meter 9",
+                "lat": 27.90125,
+                "lng": 78.07627
+              },
+              {
+                "id": "ALI-S3-T2-M10",
+                "label": "Meter 10",
+                "lat": 27.90218,
+                "lng": 78.07655
+              }
+            ]
+          },
+          {
+            "id": "ALI-S3-T3",
+            "label": "Trafo 3",
+            "lat": 27.90933,
+            "lng": 78.07204,
+            "meters": [
+              {
+                "id": "ALI-S3-T3-M1",
+                "label": "Meter 1",
+                "lat": 27.90737,
+                "lng": 78.07161
+              },
+              {
+                "id": "ALI-S3-T3-M2",
+                "label": "Meter 2",
+                "lat": 27.90751,
+                "lng": 78.07048
+              },
+              {
+                "id": "ALI-S3-T3-M3",
+                "label": "Meter 3",
+                "lat": 27.90972,
+                "lng": 78.07147
+              },
+              {
+                "id": "ALI-S3-T3-M4",
+                "label": "Meter 4",
+                "lat": 27.91122,
+                "lng": 78.07019
+              },
+              {
+                "id": "ALI-S3-T3-M5",
+                "label": "Meter 5",
+                "lat": 27.91008,
+                "lng": 78.07071
+              },
+              {
+                "id": "ALI-S3-T3-M6",
+                "label": "Meter 6",
+                "lat": 27.90789,
+                "lng": 78.07127
+              },
+              {
+                "id": "ALI-S3-T3-M7",
+                "label": "Meter 7",
+                "lat": 27.90798,
+                "lng": 78.0709
+              },
+              {
+                "id": "ALI-S3-T3-M8",
+                "label": "Meter 8",
+                "lat": 27.9076,
+                "lng": 78.07376
+              },
+              {
+                "id": "ALI-S3-T3-M9",
+                "label": "Meter 9",
+                "lat": 27.90811,
+                "lng": 78.07069
+              },
+              {
+                "id": "ALI-S3-T3-M10",
+                "label": "Meter 10",
+                "lat": 27.90846,
+                "lng": 78.07211
+              }
+            ]
+          },
+          {
+            "id": "ALI-S3-T4",
+            "label": "Trafo 4",
+            "lat": 27.90731,
+            "lng": 78.07343,
+            "meters": [
+              {
+                "id": "ALI-S3-T4-M1",
+                "label": "Meter 1",
+                "lat": 27.90787,
+                "lng": 78.07195
+              },
+              {
+                "id": "ALI-S3-T4-M2",
+                "label": "Meter 2",
+                "lat": 27.90827,
+                "lng": 78.07341
+              },
+              {
+                "id": "ALI-S3-T4-M3",
+                "label": "Meter 3",
+                "lat": 27.90681,
+                "lng": 78.07258
+              },
+              {
+                "id": "ALI-S3-T4-M4",
+                "label": "Meter 4",
+                "lat": 27.90672,
+                "lng": 78.0716
+              },
+              {
+                "id": "ALI-S3-T4-M5",
+                "label": "Meter 5",
+                "lat": 27.90751,
+                "lng": 78.07212
+              },
+              {
+                "id": "ALI-S3-T4-M6",
+                "label": "Meter 6",
+                "lat": 27.9075,
+                "lng": 78.07324
+              },
+              {
+                "id": "ALI-S3-T4-M7",
+                "label": "Meter 7",
+                "lat": 27.90711,
+                "lng": 78.07485
+              },
+              {
+                "id": "ALI-S3-T4-M8",
+                "label": "Meter 8",
+                "lat": 27.90923,
+                "lng": 78.07303
+              },
+              {
+                "id": "ALI-S3-T4-M9",
+                "label": "Meter 9",
+                "lat": 27.90924,
+                "lng": 78.07406
+              },
+              {
+                "id": "ALI-S3-T4-M10",
+                "label": "Meter 10",
+                "lat": 27.90684,
+                "lng": 78.07221
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "delhi": {
+    "name": "New Delhi",
+    "center": [
+      28.6139,
+      77.209
+    ],
+    "substations": [
+      {
+        "id": "DEL-S1",
+        "label": "New Delhi Substation 1",
+        "lat": 28.57743,
+        "lng": 77.2394,
+        "transformers": [
+          {
+            "id": "DEL-S1-T1",
+            "label": "Trafo 1",
+            "lat": 28.5762,
+            "lng": 77.24406,
+            "meters": [
+              {
+                "id": "DEL-S1-T1-M1",
+                "label": "Meter 1",
+                "lat": 28.5762,
+                "lng": 77.24288
+              },
+              {
+                "id": "DEL-S1-T1-M2",
+                "label": "Meter 2",
+                "lat": 28.57585,
+                "lng": 77.24496
+              },
+              {
+                "id": "DEL-S1-T1-M3",
+                "label": "Meter 3",
+                "lat": 28.57795,
+                "lng": 77.24318
+              },
+              {
+                "id": "DEL-S1-T1-M4",
+                "label": "Meter 4",
+                "lat": 28.57813,
+                "lng": 77.24512
+              },
+              {
+                "id": "DEL-S1-T1-M5",
+                "label": "Meter 5",
+                "lat": 28.57491,
+                "lng": 77.24525
+              },
+              {
+                "id": "DEL-S1-T1-M6",
+                "label": "Meter 6",
+                "lat": 28.57667,
+                "lng": 77.24475
+              },
+              {
+                "id": "DEL-S1-T1-M7",
+                "label": "Meter 7",
+                "lat": 28.57696,
+                "lng": 77.24444
+              },
+              {
+                "id": "DEL-S1-T1-M8",
+                "label": "Meter 8",
+                "lat": 28.57657,
+                "lng": 77.24555
+              },
+              {
+                "id": "DEL-S1-T1-M9",
+                "label": "Meter 9",
+                "lat": 28.57468,
+                "lng": 77.24348
+              },
+              {
+                "id": "DEL-S1-T1-M10",
+                "label": "Meter 10",
+                "lat": 28.57577,
+                "lng": 77.24274
+              }
+            ]
+          },
+          {
+            "id": "DEL-S1-T2",
+            "label": "Trafo 2",
+            "lat": 28.57845,
+            "lng": 77.23812,
+            "meters": [
+              {
+                "id": "DEL-S1-T2-M1",
+                "label": "Meter 1",
+                "lat": 28.57873,
+                "lng": 77.23885
+              },
+              {
+                "id": "DEL-S1-T2-M2",
+                "label": "Meter 2",
+                "lat": 28.58002,
+                "lng": 77.23749
+              },
+              {
+                "id": "DEL-S1-T2-M3",
+                "label": "Meter 3",
+                "lat": 28.5794,
+                "lng": 77.23826
+              },
+              {
+                "id": "DEL-S1-T2-M4",
+                "label": "Meter 4",
+                "lat": 28.57895,
+                "lng": 77.2387
+              },
+              {
+                "id": "DEL-S1-T2-M5",
+                "label": "Meter 5",
+                "lat": 28.57957,
+                "lng": 77.238
+              },
+              {
+                "id": "DEL-S1-T2-M6",
+                "label": "Meter 6",
+                "lat": 28.57868,
+                "lng": 77.2362
+              },
+              {
+                "id": "DEL-S1-T2-M7",
+                "label": "Meter 7",
+                "lat": 28.57849,
+                "lng": 77.23974
+              },
+              {
+                "id": "DEL-S1-T2-M8",
+                "label": "Meter 8",
+                "lat": 28.5769,
+                "lng": 77.23626
+              },
+              {
+                "id": "DEL-S1-T2-M9",
+                "label": "Meter 9",
+                "lat": 28.57882,
+                "lng": 77.23935
+              },
+              {
+                "id": "DEL-S1-T2-M10",
+                "label": "Meter 10",
+                "lat": 28.57858,
+                "lng": 77.23896
+              }
+            ]
+          },
+          {
+            "id": "DEL-S1-T3",
+            "label": "Trafo 3",
+            "lat": 28.5733,
+            "lng": 77.23777,
+            "meters": [
+              {
+                "id": "DEL-S1-T3-M1",
+                "label": "Meter 1",
+                "lat": 28.57435,
+                "lng": 77.23755
+              },
+              {
+                "id": "DEL-S1-T3-M2",
+                "label": "Meter 2",
+                "lat": 28.573,
+                "lng": 77.23797
+              },
+              {
+                "id": "DEL-S1-T3-M3",
+                "label": "Meter 3",
+                "lat": 28.57339,
+                "lng": 77.23883
+              },
+              {
+                "id": "DEL-S1-T3-M4",
+                "label": "Meter 4",
+                "lat": 28.57135,
+                "lng": 77.23826
+              },
+              {
+                "id": "DEL-S1-T3-M5",
+                "label": "Meter 5",
+                "lat": 28.57489,
+                "lng": 77.23832
+              },
+              {
+                "id": "DEL-S1-T3-M6",
+                "label": "Meter 6",
+                "lat": 28.57215,
+                "lng": 77.2374
+              },
+              {
+                "id": "DEL-S1-T3-M7",
+                "label": "Meter 7",
+                "lat": 28.57155,
+                "lng": 77.2384
+              },
+              {
+                "id": "DEL-S1-T3-M8",
+                "label": "Meter 8",
+                "lat": 28.57329,
+                "lng": 77.23935
+              },
+              {
+                "id": "DEL-S1-T3-M9",
+                "label": "Meter 9",
+                "lat": 28.57247,
+                "lng": 77.23719
+              },
+              {
+                "id": "DEL-S1-T3-M10",
+                "label": "Meter 10",
+                "lat": 28.57267,
+                "lng": 77.2375
+              }
+            ]
+          },
+          {
+            "id": "DEL-S1-T4",
+            "label": "Trafo 4",
+            "lat": 28.5791,
+            "lng": 77.24275,
+            "meters": [
+              {
+                "id": "DEL-S1-T4-M1",
+                "label": "Meter 1",
+                "lat": 28.58099,
+                "lng": 77.24326
+              },
+              {
+                "id": "DEL-S1-T4-M2",
+                "label": "Meter 2",
+                "lat": 28.58061,
+                "lng": 77.24345
+              },
+              {
+                "id": "DEL-S1-T4-M3",
+                "label": "Meter 3",
+                "lat": 28.57717,
+                "lng": 77.24213
+              },
+              {
+                "id": "DEL-S1-T4-M4",
+                "label": "Meter 4",
+                "lat": 28.57765,
+                "lng": 77.24181
+              },
+              {
+                "id": "DEL-S1-T4-M5",
+                "label": "Meter 5",
+                "lat": 28.58038,
+                "lng": 77.24144
+              },
+              {
+                "id": "DEL-S1-T4-M6",
+                "label": "Meter 6",
+                "lat": 28.57814,
+                "lng": 77.24361
+              },
+              {
+                "id": "DEL-S1-T4-M7",
+                "label": "Meter 7",
+                "lat": 28.58075,
+                "lng": 77.24178
+              },
+              {
+                "id": "DEL-S1-T4-M8",
+                "label": "Meter 8",
+                "lat": 28.57932,
+                "lng": 77.24342
+              },
+              {
+                "id": "DEL-S1-T4-M9",
+                "label": "Meter 9",
+                "lat": 28.57926,
+                "lng": 77.24374
+              },
+              {
+                "id": "DEL-S1-T4-M10",
+                "label": "Meter 10",
+                "lat": 28.57801,
+                "lng": 77.24338
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "DEL-S2",
+        "label": "New Delhi Substation 2",
+        "lat": 28.61531,
+        "lng": 77.23005,
+        "transformers": [
+          {
+            "id": "DEL-S2-T1",
+            "label": "Trafo 1",
+            "lat": 28.60836,
+            "lng": 77.22644,
+            "meters": [
+              {
+                "id": "DEL-S2-T1-M1",
+                "label": "Meter 1",
+                "lat": 28.60877,
+                "lng": 77.22739
+              },
+              {
+                "id": "DEL-S2-T1-M2",
+                "label": "Meter 2",
+                "lat": 28.60735,
+                "lng": 77.22498
+              },
+              {
+                "id": "DEL-S2-T1-M3",
+                "label": "Meter 3",
+                "lat": 28.60991,
+                "lng": 77.2284
+              },
+              {
+                "id": "DEL-S2-T1-M4",
+                "label": "Meter 4",
+                "lat": 28.60913,
+                "lng": 77.22577
+              },
+              {
+                "id": "DEL-S2-T1-M5",
+                "label": "Meter 5",
+                "lat": 28.6077,
+                "lng": 77.22838
+              },
+              {
+                "id": "DEL-S2-T1-M6",
+                "label": "Meter 6",
+                "lat": 28.60878,
+                "lng": 77.22767
+              },
+              {
+                "id": "DEL-S2-T1-M7",
+                "label": "Meter 7",
+                "lat": 28.60654,
+                "lng": 77.2259
+              },
+              {
+                "id": "DEL-S2-T1-M8",
+                "label": "Meter 8",
+                "lat": 28.60841,
+                "lng": 77.22768
+              },
+              {
+                "id": "DEL-S2-T1-M9",
+                "label": "Meter 9",
+                "lat": 28.60667,
+                "lng": 77.22599
+              },
+              {
+                "id": "DEL-S2-T1-M10",
+                "label": "Meter 10",
+                "lat": 28.6082,
+                "lng": 77.22521
+              }
+            ]
+          },
+          {
+            "id": "DEL-S2-T2",
+            "label": "Trafo 2",
+            "lat": 28.61414,
+            "lng": 77.23772,
+            "meters": [
+              {
+                "id": "DEL-S2-T2-M1",
+                "label": "Meter 1",
+                "lat": 28.61433,
+                "lng": 77.23639
+              },
+              {
+                "id": "DEL-S2-T2-M2",
+                "label": "Meter 2",
+                "lat": 28.61396,
+                "lng": 77.23876
+              },
+              {
+                "id": "DEL-S2-T2-M3",
+                "label": "Meter 3",
+                "lat": 28.613,
+                "lng": 77.23645
+              },
+              {
+                "id": "DEL-S2-T2-M4",
+                "label": "Meter 4",
+                "lat": 28.61233,
+                "lng": 77.23779
+              },
+              {
+                "id": "DEL-S2-T2-M5",
+                "label": "Meter 5",
+                "lat": 28.61398,
+                "lng": 77.23674
+              },
+              {
+                "id": "DEL-S2-T2-M6",
+                "label": "Meter 6",
+                "lat": 28.61599,
+                "lng": 77.23703
+              },
+              {
+                "id": "DEL-S2-T2-M7",
+                "label": "Meter 7",
+                "lat": 28.6129,
+                "lng": 77.23771
+              },
+              {
+                "id": "DEL-S2-T2-M8",
+                "label": "Meter 8",
+                "lat": 28.61378,
+                "lng": 77.239
+              },
+              {
+                "id": "DEL-S2-T2-M9",
+                "label": "Meter 9",
+                "lat": 28.61223,
+                "lng": 77.23625
+              },
+              {
+                "id": "DEL-S2-T2-M10",
+                "label": "Meter 10",
+                "lat": 28.61342,
+                "lng": 77.23924
+              }
+            ]
+          },
+          {
+            "id": "DEL-S2-T3",
+            "label": "Trafo 3",
+            "lat": 28.61055,
+            "lng": 77.23841,
+            "meters": [
+              {
+                "id": "DEL-S2-T3-M1",
+                "label": "Meter 1",
+                "lat": 28.61159,
+                "lng": 77.2373
+              },
+              {
+                "id": "DEL-S2-T3-M2",
+                "label": "Meter 2",
+                "lat": 28.6093,
+                "lng": 77.23831
+              },
+              {
+                "id": "DEL-S2-T3-M3",
+                "label": "Meter 3",
+                "lat": 28.60859,
+                "lng": 77.24034
+              },
+              {
+                "id": "DEL-S2-T3-M4",
+                "label": "Meter 4",
+                "lat": 28.6124,
+                "lng": 77.23881
+              },
+              {
+                "id": "DEL-S2-T3-M5",
+                "label": "Meter 5",
+                "lat": 28.60872,
+                "lng": 77.23852
+              },
+              {
+                "id": "DEL-S2-T3-M6",
+                "label": "Meter 6",
+                "lat": 28.60918,
+                "lng": 77.23758
+              },
+              {
+                "id": "DEL-S2-T3-M7",
+                "label": "Meter 7",
+                "lat": 28.6102,
+                "lng": 77.237
+              },
+              {
+                "id": "DEL-S2-T3-M8",
+                "label": "Meter 8",
+                "lat": 28.61237,
+                "lng": 77.23963
+              },
+              {
+                "id": "DEL-S2-T3-M9",
+                "label": "Meter 9",
+                "lat": 28.61,
+                "lng": 77.23919
+              },
+              {
+                "id": "DEL-S2-T3-M10",
+                "label": "Meter 10",
+                "lat": 28.61159,
+                "lng": 77.23664
+              }
+            ]
+          },
+          {
+            "id": "DEL-S2-T4",
+            "label": "Trafo 4",
+            "lat": 28.60668,
+            "lng": 77.22234,
+            "meters": [
+              {
+                "id": "DEL-S2-T4-M1",
+                "label": "Meter 1",
+                "lat": 28.60528,
+                "lng": 77.22219
+              },
+              {
+                "id": "DEL-S2-T4-M2",
+                "label": "Meter 2",
+                "lat": 28.60674,
+                "lng": 77.22331
+              },
+              {
+                "id": "DEL-S2-T4-M3",
+                "label": "Meter 3",
+                "lat": 28.60526,
+                "lng": 77.2218
+              },
+              {
+                "id": "DEL-S2-T4-M4",
+                "label": "Meter 4",
+                "lat": 28.60579,
+                "lng": 77.22243
+              },
+              {
+                "id": "DEL-S2-T4-M5",
+                "label": "Meter 5",
+                "lat": 28.60821,
+                "lng": 77.22276
+              },
+              {
+                "id": "DEL-S2-T4-M6",
+                "label": "Meter 6",
+                "lat": 28.60597,
+                "lng": 77.2205
+              },
+              {
+                "id": "DEL-S2-T4-M7",
+                "label": "Meter 7",
+                "lat": 28.60512,
+                "lng": 77.22425
+              },
+              {
+                "id": "DEL-S2-T4-M8",
+                "label": "Meter 8",
+                "lat": 28.60541,
+                "lng": 77.22354
+              },
+              {
+                "id": "DEL-S2-T4-M9",
+                "label": "Meter 9",
+                "lat": 28.60716,
+                "lng": 77.22226
+              },
+              {
+                "id": "DEL-S2-T4-M10",
+                "label": "Meter 10",
+                "lat": 28.6063,
+                "lng": 77.22066
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "DEL-S3",
+        "label": "New Delhi Substation 3",
+        "lat": 28.63842,
+        "lng": 77.18078,
+        "transformers": [
+          {
+            "id": "DEL-S3-T1",
+            "label": "Trafo 1",
+            "lat": 28.6396,
+            "lng": 77.17807,
+            "meters": [
+              {
+                "id": "DEL-S3-T1-M1",
+                "label": "Meter 1",
+                "lat": 28.64076,
+                "lng": 77.17868
+              },
+              {
+                "id": "DEL-S3-T1-M2",
+                "label": "Meter 2",
+                "lat": 28.64131,
+                "lng": 77.1768
+              },
+              {
+                "id": "DEL-S3-T1-M3",
+                "label": "Meter 3",
+                "lat": 28.64158,
+                "lng": 77.17905
+              },
+              {
+                "id": "DEL-S3-T1-M4",
+                "label": "Meter 4",
+                "lat": 28.63807,
+                "lng": 77.17943
+              },
+              {
+                "id": "DEL-S3-T1-M5",
+                "label": "Meter 5",
+                "lat": 28.63989,
+                "lng": 77.17871
+              },
+              {
+                "id": "DEL-S3-T1-M6",
+                "label": "Meter 6",
+                "lat": 28.63782,
+                "lng": 77.17639
+              },
+              {
+                "id": "DEL-S3-T1-M7",
+                "label": "Meter 7",
+                "lat": 28.63829,
+                "lng": 77.17657
+              },
+              {
+                "id": "DEL-S3-T1-M8",
+                "label": "Meter 8",
+                "lat": 28.63811,
+                "lng": 77.17791
+              },
+              {
+                "id": "DEL-S3-T1-M9",
+                "label": "Meter 9",
+                "lat": 28.64129,
+                "lng": 77.17867
+              },
+              {
+                "id": "DEL-S3-T1-M10",
+                "label": "Meter 10",
+                "lat": 28.6382,
+                "lng": 77.17679
+              }
+            ]
+          },
+          {
+            "id": "DEL-S3-T2",
+            "label": "Trafo 2",
+            "lat": 28.64447,
+            "lng": 77.17692,
+            "meters": [
+              {
+                "id": "DEL-S3-T2-M1",
+                "label": "Meter 1",
+                "lat": 28.64577,
+                "lng": 77.1787
+              },
+              {
+                "id": "DEL-S3-T2-M2",
+                "label": "Meter 2",
+                "lat": 28.64433,
+                "lng": 77.1788
+              },
+              {
+                "id": "DEL-S3-T2-M3",
+                "label": "Meter 3",
+                "lat": 28.64598,
+                "lng": 77.17639
+              },
+              {
+                "id": "DEL-S3-T2-M4",
+                "label": "Meter 4",
+                "lat": 28.64507,
+                "lng": 77.17762
+              },
+              {
+                "id": "DEL-S3-T2-M5",
+                "label": "Meter 5",
+                "lat": 28.64423,
+                "lng": 77.17725
+              },
+              {
+                "id": "DEL-S3-T2-M6",
+                "label": "Meter 6",
+                "lat": 28.6434,
+                "lng": 77.17673
+              },
+              {
+                "id": "DEL-S3-T2-M7",
+                "label": "Meter 7",
+                "lat": 28.64426,
+                "lng": 77.1755
+              },
+              {
+                "id": "DEL-S3-T2-M8",
+                "label": "Meter 8",
+                "lat": 28.64255,
+                "lng": 77.17825
+              },
+              {
+                "id": "DEL-S3-T2-M9",
+                "label": "Meter 9",
+                "lat": 28.64446,
+                "lng": 77.17705
+              },
+              {
+                "id": "DEL-S3-T2-M10",
+                "label": "Meter 10",
+                "lat": 28.64312,
+                "lng": 77.17774
+              }
+            ]
+          },
+          {
+            "id": "DEL-S3-T3",
+            "label": "Trafo 3",
+            "lat": 28.62944,
+            "lng": 77.17726,
+            "meters": [
+              {
+                "id": "DEL-S3-T3-M1",
+                "label": "Meter 1",
+                "lat": 28.63124,
+                "lng": 77.17881
+              },
+              {
+                "id": "DEL-S3-T3-M2",
+                "label": "Meter 2",
+                "lat": 28.62808,
+                "lng": 77.17893
+              },
+              {
+                "id": "DEL-S3-T3-M3",
+                "label": "Meter 3",
+                "lat": 28.62962,
+                "lng": 77.1792
+              },
+              {
+                "id": "DEL-S3-T3-M4",
+                "label": "Meter 4",
+                "lat": 28.6314,
+                "lng": 77.17772
+              },
+              {
+                "id": "DEL-S3-T3-M5",
+                "label": "Meter 5",
+                "lat": 28.62889,
+                "lng": 77.17841
+              },
+              {
+                "id": "DEL-S3-T3-M6",
+                "label": "Meter 6",
+                "lat": 28.62863,
+                "lng": 77.17622
+              },
+              {
+                "id": "DEL-S3-T3-M7",
+                "label": "Meter 7",
+                "lat": 28.63057,
+                "lng": 77.17688
+              },
+              {
+                "id": "DEL-S3-T3-M8",
+                "label": "Meter 8",
+                "lat": 28.62835,
+                "lng": 77.17819
+              },
+              {
+                "id": "DEL-S3-T3-M9",
+                "label": "Meter 9",
+                "lat": 28.62822,
+                "lng": 77.17785
+              },
+              {
+                "id": "DEL-S3-T3-M10",
+                "label": "Meter 10",
+                "lat": 28.62797,
+                "lng": 77.17881
+              }
+            ]
+          },
+          {
+            "id": "DEL-S3-T4",
+            "label": "Trafo 4",
+            "lat": 28.64583,
+            "lng": 77.18321,
+            "meters": [
+              {
+                "id": "DEL-S3-T4-M1",
+                "label": "Meter 1",
+                "lat": 28.64529,
+                "lng": 77.18306
+              },
+              {
+                "id": "DEL-S3-T4-M2",
+                "label": "Meter 2",
+                "lat": 28.64667,
+                "lng": 77.1825
+              },
+              {
+                "id": "DEL-S3-T4-M3",
+                "label": "Meter 3",
+                "lat": 28.64555,
+                "lng": 77.18512
+              },
+              {
+                "id": "DEL-S3-T4-M4",
+                "label": "Meter 4",
+                "lat": 28.64679,
+                "lng": 77.184
+              },
+              {
+                "id": "DEL-S3-T4-M5",
+                "label": "Meter 5",
+                "lat": 28.64484,
+                "lng": 77.18509
+              },
+              {
+                "id": "DEL-S3-T4-M6",
+                "label": "Meter 6",
+                "lat": 28.64572,
+                "lng": 77.18442
+              },
+              {
+                "id": "DEL-S3-T4-M7",
+                "label": "Meter 7",
+                "lat": 28.64528,
+                "lng": 77.18348
+              },
+              {
+                "id": "DEL-S3-T4-M8",
+                "label": "Meter 8",
+                "lat": 28.64531,
+                "lng": 77.18242
+              },
+              {
+                "id": "DEL-S3-T4-M9",
+                "label": "Meter 9",
+                "lat": 28.64545,
+                "lng": 77.18314
+              },
+              {
+                "id": "DEL-S3-T4-M10",
+                "label": "Meter 10",
+                "lat": 28.64587,
+                "lng": 77.18127
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "bangalore": {
+    "name": "Bangalore",
+    "center": [
+      12.9716,
+      77.5946
+    ],
+    "substations": [
+      {
+        "id": "BLR-S1",
+        "label": "Bangalore Substation 1",
+        "lat": 12.99152,
+        "lng": 77.59489,
+        "transformers": [
+          {
+            "id": "BLR-S1-T1",
+            "label": "Trafo 1",
+            "lat": 12.99065,
+            "lng": 77.60198,
+            "meters": [
+              {
+                "id": "BLR-S1-T1-M1",
+                "label": "Meter 1",
+                "lat": 12.9916,
+                "lng": 77.60232
+              },
+              {
+                "id": "BLR-S1-T1-M2",
+                "label": "Meter 2",
+                "lat": 12.98903,
+                "lng": 77.60069
+              },
+              {
+                "id": "BLR-S1-T1-M3",
+                "label": "Meter 3",
+                "lat": 12.9913,
+                "lng": 77.60224
+              },
+              {
+                "id": "BLR-S1-T1-M4",
+                "label": "Meter 4",
+                "lat": 12.99003,
+                "lng": 77.60343
+              },
+              {
+                "id": "BLR-S1-T1-M5",
+                "label": "Meter 5",
+                "lat": 12.99111,
+                "lng": 77.60173
+              },
+              {
+                "id": "BLR-S1-T1-M6",
+                "label": "Meter 6",
+                "lat": 12.991,
+                "lng": 77.60285
+              },
+              {
+                "id": "BLR-S1-T1-M7",
+                "label": "Meter 7",
+                "lat": 12.98917,
+                "lng": 77.60267
+              },
+              {
+                "id": "BLR-S1-T1-M8",
+                "label": "Meter 8",
+                "lat": 12.9896,
+                "lng": 77.6011
+              },
+              {
+                "id": "BLR-S1-T1-M9",
+                "label": "Meter 9",
+                "lat": 12.99096,
+                "lng": 77.60008
+              },
+              {
+                "id": "BLR-S1-T1-M10",
+                "label": "Meter 10",
+                "lat": 12.99016,
+                "lng": 77.60026
+              }
+            ]
+          },
+          {
+            "id": "BLR-S1-T2",
+            "label": "Trafo 2",
+            "lat": 12.99626,
+            "lng": 77.6037,
+            "meters": [
+              {
+                "id": "BLR-S1-T2-M1",
+                "label": "Meter 1",
+                "lat": 12.99518,
+                "lng": 77.60209
+              },
+              {
+                "id": "BLR-S1-T2-M2",
+                "label": "Meter 2",
+                "lat": 12.99656,
+                "lng": 77.60393
+              },
+              {
+                "id": "BLR-S1-T2-M3",
+                "label": "Meter 3",
+                "lat": 12.996,
+                "lng": 77.60215
+              },
+              {
+                "id": "BLR-S1-T2-M4",
+                "label": "Meter 4",
+                "lat": 12.99731,
+                "lng": 77.60565
+              },
+              {
+                "id": "BLR-S1-T2-M5",
+                "label": "Meter 5",
+                "lat": 12.99709,
+                "lng": 77.60268
+              },
+              {
+                "id": "BLR-S1-T2-M6",
+                "label": "Meter 6",
+                "lat": 12.99626,
+                "lng": 77.60348
+              },
+              {
+                "id": "BLR-S1-T2-M7",
+                "label": "Meter 7",
+                "lat": 12.99781,
+                "lng": 77.60381
+              },
+              {
+                "id": "BLR-S1-T2-M8",
+                "label": "Meter 8",
+                "lat": 12.99654,
+                "lng": 77.60477
+              },
+              {
+                "id": "BLR-S1-T2-M9",
+                "label": "Meter 9",
+                "lat": 12.99561,
+                "lng": 77.60395
+              },
+              {
+                "id": "BLR-S1-T2-M10",
+                "label": "Meter 10",
+                "lat": 12.99644,
+                "lng": 77.60358
+              }
+            ]
+          },
+          {
+            "id": "BLR-S1-T3",
+            "label": "Trafo 3",
+            "lat": 12.99121,
+            "lng": 77.58852,
+            "meters": [
+              {
+                "id": "BLR-S1-T3-M1",
+                "label": "Meter 1",
+                "lat": 12.9894,
+                "lng": 77.59049
+              },
+              {
+                "id": "BLR-S1-T3-M2",
+                "label": "Meter 2",
+                "lat": 12.98989,
+                "lng": 77.58988
+              },
+              {
+                "id": "BLR-S1-T3-M3",
+                "label": "Meter 3",
+                "lat": 12.98994,
+                "lng": 77.5898
+              },
+              {
+                "id": "BLR-S1-T3-M4",
+                "label": "Meter 4",
+                "lat": 12.99011,
+                "lng": 77.58852
+              },
+              {
+                "id": "BLR-S1-T3-M5",
+                "label": "Meter 5",
+                "lat": 12.99129,
+                "lng": 77.59014
+              },
+              {
+                "id": "BLR-S1-T3-M6",
+                "label": "Meter 6",
+                "lat": 12.99029,
+                "lng": 77.58672
+              },
+              {
+                "id": "BLR-S1-T3-M7",
+                "label": "Meter 7",
+                "lat": 12.99264,
+                "lng": 77.59027
+              },
+              {
+                "id": "BLR-S1-T3-M8",
+                "label": "Meter 8",
+                "lat": 12.99153,
+                "lng": 77.589
+              },
+              {
+                "id": "BLR-S1-T3-M9",
+                "label": "Meter 9",
+                "lat": 12.99084,
+                "lng": 77.58735
+              },
+              {
+                "id": "BLR-S1-T3-M10",
+                "label": "Meter 10",
+                "lat": 12.99078,
+                "lng": 77.58693
+              }
+            ]
+          },
+          {
+            "id": "BLR-S1-T4",
+            "label": "Trafo 4",
+            "lat": 12.9892,
+            "lng": 77.59476,
+            "meters": [
+              {
+                "id": "BLR-S1-T4-M1",
+                "label": "Meter 1",
+                "lat": 12.99098,
+                "lng": 77.59277
+              },
+              {
+                "id": "BLR-S1-T4-M2",
+                "label": "Meter 2",
+                "lat": 12.9879,
+                "lng": 77.59531
+              },
+              {
+                "id": "BLR-S1-T4-M3",
+                "label": "Meter 3",
+                "lat": 12.98878,
+                "lng": 77.59376
+              },
+              {
+                "id": "BLR-S1-T4-M4",
+                "label": "Meter 4",
+                "lat": 12.98805,
+                "lng": 77.59551
+              },
+              {
+                "id": "BLR-S1-T4-M5",
+                "label": "Meter 5",
+                "lat": 12.98757,
+                "lng": 77.59595
+              },
+              {
+                "id": "BLR-S1-T4-M6",
+                "label": "Meter 6",
+                "lat": 12.99032,
+                "lng": 77.59662
+              },
+              {
+                "id": "BLR-S1-T4-M7",
+                "label": "Meter 7",
+                "lat": 12.98722,
+                "lng": 77.5932
+              },
+              {
+                "id": "BLR-S1-T4-M8",
+                "label": "Meter 8",
+                "lat": 12.98961,
+                "lng": 77.59515
+              },
+              {
+                "id": "BLR-S1-T4-M9",
+                "label": "Meter 9",
+                "lat": 12.98879,
+                "lng": 77.59394
+              },
+              {
+                "id": "BLR-S1-T4-M10",
+                "label": "Meter 10",
+                "lat": 12.98927,
+                "lng": 77.59468
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "BLR-S2",
+        "label": "Bangalore Substation 2",
+        "lat": 12.94474,
+        "lng": 77.57905,
+        "transformers": [
+          {
+            "id": "BLR-S2-T1",
+            "label": "Trafo 1",
+            "lat": 12.95453,
+            "lng": 77.5869,
+            "meters": [
+              {
+                "id": "BLR-S2-T1-M1",
+                "label": "Meter 1",
+                "lat": 12.95274,
+                "lng": 77.58499
+              },
+              {
+                "id": "BLR-S2-T1-M2",
+                "label": "Meter 2",
+                "lat": 12.95461,
+                "lng": 77.58709
+              },
+              {
+                "id": "BLR-S2-T1-M3",
+                "label": "Meter 3",
+                "lat": 12.95332,
+                "lng": 77.58853
+              },
+              {
+                "id": "BLR-S2-T1-M4",
+                "label": "Meter 4",
+                "lat": 12.95306,
+                "lng": 77.5886
+              },
+              {
+                "id": "BLR-S2-T1-M5",
+                "label": "Meter 5",
+                "lat": 12.95571,
+                "lng": 77.58727
+              },
+              {
+                "id": "BLR-S2-T1-M6",
+                "label": "Meter 6",
+                "lat": 12.95608,
+                "lng": 77.58699
+              },
+              {
+                "id": "BLR-S2-T1-M7",
+                "label": "Meter 7",
+                "lat": 12.9534,
+                "lng": 77.58517
+              },
+              {
+                "id": "BLR-S2-T1-M8",
+                "label": "Meter 8",
+                "lat": 12.95379,
+                "lng": 77.58723
+              },
+              {
+                "id": "BLR-S2-T1-M9",
+                "label": "Meter 9",
+                "lat": 12.95276,
+                "lng": 77.58681
+              },
+              {
+                "id": "BLR-S2-T1-M10",
+                "label": "Meter 10",
+                "lat": 12.95475,
+                "lng": 77.58708
+              }
+            ]
+          },
+          {
+            "id": "BLR-S2-T2",
+            "label": "Trafo 2",
+            "lat": 12.93924,
+            "lng": 77.58396,
+            "meters": [
+              {
+                "id": "BLR-S2-T2-M1",
+                "label": "Meter 1",
+                "lat": 12.9397,
+                "lng": 77.5824
+              },
+              {
+                "id": "BLR-S2-T2-M2",
+                "label": "Meter 2",
+                "lat": 12.93999,
+                "lng": 77.58288
+              },
+              {
+                "id": "BLR-S2-T2-M3",
+                "label": "Meter 3",
+                "lat": 12.93899,
+                "lng": 77.58323
+              },
+              {
+                "id": "BLR-S2-T2-M4",
+                "label": "Meter 4",
+                "lat": 12.94111,
+                "lng": 77.58237
+              },
+              {
+                "id": "BLR-S2-T2-M5",
+                "label": "Meter 5",
+                "lat": 12.93924,
+                "lng": 77.58587
+              },
+              {
+                "id": "BLR-S2-T2-M6",
+                "label": "Meter 6",
+                "lat": 12.93887,
+                "lng": 77.58315
+              },
+              {
+                "id": "BLR-S2-T2-M7",
+                "label": "Meter 7",
+                "lat": 12.93827,
+                "lng": 77.58528
+              },
+              {
+                "id": "BLR-S2-T2-M8",
+                "label": "Meter 8",
+                "lat": 12.93815,
+                "lng": 77.58371
+              },
+              {
+                "id": "BLR-S2-T2-M9",
+                "label": "Meter 9",
+                "lat": 12.93845,
+                "lng": 77.58317
+              },
+              {
+                "id": "BLR-S2-T2-M10",
+                "label": "Meter 10",
+                "lat": 12.93928,
+                "lng": 77.58365
+              }
+            ]
+          },
+          {
+            "id": "BLR-S2-T3",
+            "label": "Trafo 3",
+            "lat": 12.93802,
+            "lng": 77.57593,
+            "meters": [
+              {
+                "id": "BLR-S2-T3-M1",
+                "label": "Meter 1",
+                "lat": 12.93931,
+                "lng": 77.57625
+              },
+              {
+                "id": "BLR-S2-T3-M2",
+                "label": "Meter 2",
+                "lat": 12.93727,
+                "lng": 77.57491
+              },
+              {
+                "id": "BLR-S2-T3-M3",
+                "label": "Meter 3",
+                "lat": 12.93677,
+                "lng": 77.57663
+              },
+              {
+                "id": "BLR-S2-T3-M4",
+                "label": "Meter 4",
+                "lat": 12.93691,
+                "lng": 77.57565
+              },
+              {
+                "id": "BLR-S2-T3-M5",
+                "label": "Meter 5",
+                "lat": 12.93655,
+                "lng": 77.57483
+              },
+              {
+                "id": "BLR-S2-T3-M6",
+                "label": "Meter 6",
+                "lat": 12.9399,
+                "lng": 77.57729
+              },
+              {
+                "id": "BLR-S2-T3-M7",
+                "label": "Meter 7",
+                "lat": 12.93712,
+                "lng": 77.57544
+              },
+              {
+                "id": "BLR-S2-T3-M8",
+                "label": "Meter 8",
+                "lat": 12.93747,
+                "lng": 77.57617
+              },
+              {
+                "id": "BLR-S2-T3-M9",
+                "label": "Meter 9",
+                "lat": 12.93737,
+                "lng": 77.57655
+              },
+              {
+                "id": "BLR-S2-T3-M10",
+                "label": "Meter 10",
+                "lat": 12.93743,
+                "lng": 77.57464
+              }
+            ]
+          },
+          {
+            "id": "BLR-S2-T4",
+            "label": "Trafo 4",
+            "lat": 12.94548,
+            "lng": 77.58246,
+            "meters": [
+              {
+                "id": "BLR-S2-T4-M1",
+                "label": "Meter 1",
+                "lat": 12.94549,
+                "lng": 77.58317
+              },
+              {
+                "id": "BLR-S2-T4-M2",
+                "label": "Meter 2",
+                "lat": 12.94608,
+                "lng": 77.5815
+              },
+              {
+                "id": "BLR-S2-T4-M3",
+                "label": "Meter 3",
+                "lat": 12.94521,
+                "lng": 77.58439
+              },
+              {
+                "id": "BLR-S2-T4-M4",
+                "label": "Meter 4",
+                "lat": 12.94699,
+                "lng": 77.58243
+              },
+              {
+                "id": "BLR-S2-T4-M5",
+                "label": "Meter 5",
+                "lat": 12.9457,
+                "lng": 77.5806
+              },
+              {
+                "id": "BLR-S2-T4-M6",
+                "label": "Meter 6",
+                "lat": 12.9464,
+                "lng": 77.58415
+              },
+              {
+                "id": "BLR-S2-T4-M7",
+                "label": "Meter 7",
+                "lat": 12.9439,
+                "lng": 77.58327
+              },
+              {
+                "id": "BLR-S2-T4-M8",
+                "label": "Meter 8",
+                "lat": 12.94714,
+                "lng": 77.58358
+              },
+              {
+                "id": "BLR-S2-T4-M9",
+                "label": "Meter 9",
+                "lat": 12.94348,
+                "lng": 77.58391
+              },
+              {
+                "id": "BLR-S2-T4-M10",
+                "label": "Meter 10",
+                "lat": 12.94659,
+                "lng": 77.58089
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "BLR-S3",
+        "label": "Bangalore Substation 3",
+        "lat": 12.94746,
+        "lng": 77.59897,
+        "transformers": [
+          {
+            "id": "BLR-S3-T1",
+            "label": "Trafo 1",
+            "lat": 12.95719,
+            "lng": 77.60745,
+            "meters": [
+              {
+                "id": "BLR-S3-T1-M1",
+                "label": "Meter 1",
+                "lat": 12.95528,
+                "lng": 77.60757
+              },
+              {
+                "id": "BLR-S3-T1-M2",
+                "label": "Meter 2",
+                "lat": 12.9576,
+                "lng": 77.6087
+              },
+              {
+                "id": "BLR-S3-T1-M3",
+                "label": "Meter 3",
+                "lat": 12.95731,
+                "lng": 77.60725
+              },
+              {
+                "id": "BLR-S3-T1-M4",
+                "label": "Meter 4",
+                "lat": 12.95861,
+                "lng": 77.60812
+              },
+              {
+                "id": "BLR-S3-T1-M5",
+                "label": "Meter 5",
+                "lat": 12.95901,
+                "lng": 77.60944
+              },
+              {
+                "id": "BLR-S3-T1-M6",
+                "label": "Meter 6",
+                "lat": 12.95776,
+                "lng": 77.60913
+              },
+              {
+                "id": "BLR-S3-T1-M7",
+                "label": "Meter 7",
+                "lat": 12.95592,
+                "lng": 77.6088
+              },
+              {
+                "id": "BLR-S3-T1-M8",
+                "label": "Meter 8",
+                "lat": 12.95689,
+                "lng": 77.60792
+              },
+              {
+                "id": "BLR-S3-T1-M9",
+                "label": "Meter 9",
+                "lat": 12.95762,
+                "lng": 77.60879
+              },
+              {
+                "id": "BLR-S3-T1-M10",
+                "label": "Meter 10",
+                "lat": 12.95636,
+                "lng": 77.60708
+              }
+            ]
+          },
+          {
+            "id": "BLR-S3-T2",
+            "label": "Trafo 2",
+            "lat": 12.95287,
+            "lng": 77.60511,
+            "meters": [
+              {
+                "id": "BLR-S3-T2-M1",
+                "label": "Meter 1",
+                "lat": 12.95372,
+                "lng": 77.60345
+              },
+              {
+                "id": "BLR-S3-T2-M2",
+                "label": "Meter 2",
+                "lat": 12.95169,
+                "lng": 77.60369
+              },
+              {
+                "id": "BLR-S3-T2-M3",
+                "label": "Meter 3",
+                "lat": 12.9535,
+                "lng": 77.60405
+              },
+              {
+                "id": "BLR-S3-T2-M4",
+                "label": "Meter 4",
+                "lat": 12.95339,
+                "lng": 77.60571
+              },
+              {
+                "id": "BLR-S3-T2-M5",
+                "label": "Meter 5",
+                "lat": 12.95182,
+                "lng": 77.60558
+              },
+              {
+                "id": "BLR-S3-T2-M6",
+                "label": "Meter 6",
+                "lat": 12.95196,
+                "lng": 77.6048
+              },
+              {
+                "id": "BLR-S3-T2-M7",
+                "label": "Meter 7",
+                "lat": 12.95089,
+                "lng": 77.6048
+              },
+              {
+                "id": "BLR-S3-T2-M8",
+                "label": "Meter 8",
+                "lat": 12.95199,
+                "lng": 77.60447
+              },
+              {
+                "id": "BLR-S3-T2-M9",
+                "label": "Meter 9",
+                "lat": 12.95447,
+                "lng": 77.60347
+              },
+              {
+                "id": "BLR-S3-T2-M10",
+                "label": "Meter 10",
+                "lat": 12.95285,
+                "lng": 77.60346
+              }
+            ]
+          },
+          {
+            "id": "BLR-S3-T3",
+            "label": "Trafo 3",
+            "lat": 12.94762,
+            "lng": 77.59368,
+            "meters": [
+              {
+                "id": "BLR-S3-T3-M1",
+                "label": "Meter 1",
+                "lat": 12.94941,
+                "lng": 77.59326
+              },
+              {
+                "id": "BLR-S3-T3-M2",
+                "label": "Meter 2",
+                "lat": 12.94892,
+                "lng": 77.59422
+              },
+              {
+                "id": "BLR-S3-T3-M3",
+                "label": "Meter 3",
+                "lat": 12.94576,
+                "lng": 77.59227
+              },
+              {
+                "id": "BLR-S3-T3-M4",
+                "label": "Meter 4",
+                "lat": 12.94786,
+                "lng": 77.59427
+              },
+              {
+                "id": "BLR-S3-T3-M5",
+                "label": "Meter 5",
+                "lat": 12.94602,
+                "lng": 77.59508
+              },
+              {
+                "id": "BLR-S3-T3-M6",
+                "label": "Meter 6",
+                "lat": 12.94859,
+                "lng": 77.59418
+              },
+              {
+                "id": "BLR-S3-T3-M7",
+                "label": "Meter 7",
+                "lat": 12.94921,
+                "lng": 77.59249
+              },
+              {
+                "id": "BLR-S3-T3-M8",
+                "label": "Meter 8",
+                "lat": 12.94913,
+                "lng": 77.59536
+              },
+              {
+                "id": "BLR-S3-T3-M9",
+                "label": "Meter 9",
+                "lat": 12.9484,
+                "lng": 77.59344
+              },
+              {
+                "id": "BLR-S3-T3-M10",
+                "label": "Meter 10",
+                "lat": 12.9477,
+                "lng": 77.59507
+              }
+            ]
+          },
+          {
+            "id": "BLR-S3-T4",
+            "label": "Trafo 4",
+            "lat": 12.94515,
+            "lng": 77.60629,
+            "meters": [
+              {
+                "id": "BLR-S3-T4-M1",
+                "label": "Meter 1",
+                "lat": 12.94361,
+                "lng": 77.60566
+              },
+              {
+                "id": "BLR-S3-T4-M2",
+                "label": "Meter 2",
+                "lat": 12.9433,
+                "lng": 77.60474
+              },
+              {
+                "id": "BLR-S3-T4-M3",
+                "label": "Meter 3",
+                "lat": 12.94602,
+                "lng": 77.60697
+              },
+              {
+                "id": "BLR-S3-T4-M4",
+                "label": "Meter 4",
+                "lat": 12.94369,
+                "lng": 77.60636
+              },
+              {
+                "id": "BLR-S3-T4-M5",
+                "label": "Meter 5",
+                "lat": 12.9453,
+                "lng": 77.60582
+              },
+              {
+                "id": "BLR-S3-T4-M6",
+                "label": "Meter 6",
+                "lat": 12.94353,
+                "lng": 77.60522
+              },
+              {
+                "id": "BLR-S3-T4-M7",
+                "label": "Meter 7",
+                "lat": 12.94621,
+                "lng": 77.60468
+              },
+              {
+                "id": "BLR-S3-T4-M8",
+                "label": "Meter 8",
+                "lat": 12.94466,
+                "lng": 77.60534
+              },
+              {
+                "id": "BLR-S3-T4-M9",
+                "label": "Meter 9",
+                "lat": 12.94524,
+                "lng": 77.60503
+              },
+              {
+                "id": "BLR-S3-T4-M10",
+                "label": "Meter 10",
+                "lat": 12.94663,
+                "lng": 77.60724
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "mumbai": {
+    "name": "Mumbai",
+    "center": [
+      19.076,
+      72.8777
+    ],
+    "substations": [
+      {
+        "id": "MUM-S1",
+        "label": "Mumbai Substation 1",
+        "lat": 19.07855,
+        "lng": 72.88308,
+        "transformers": [
+          {
+            "id": "MUM-S1-T1",
+            "label": "Trafo 1",
+            "lat": 19.084,
+            "lng": 72.88267,
+            "meters": [
+              {
+                "id": "MUM-S1-T1-M1",
+                "label": "Meter 1",
+                "lat": 19.08374,
+                "lng": 72.88392
+              },
+              {
+                "id": "MUM-S1-T1-M2",
+                "label": "Meter 2",
+                "lat": 19.08485,
+                "lng": 72.88166
+              },
+              {
+                "id": "MUM-S1-T1-M3",
+                "label": "Meter 3",
+                "lat": 19.08585,
+                "lng": 72.88304
+              },
+              {
+                "id": "MUM-S1-T1-M4",
+                "label": "Meter 4",
+                "lat": 19.08223,
+                "lng": 72.88356
+              },
+              {
+                "id": "MUM-S1-T1-M5",
+                "label": "Meter 5",
+                "lat": 19.08205,
+                "lng": 72.8811
+              },
+              {
+                "id": "MUM-S1-T1-M6",
+                "label": "Meter 6",
+                "lat": 19.08247,
+                "lng": 72.88268
+              },
+              {
+                "id": "MUM-S1-T1-M7",
+                "label": "Meter 7",
+                "lat": 19.08227,
+                "lng": 72.88195
+              },
+              {
+                "id": "MUM-S1-T1-M8",
+                "label": "Meter 8",
+                "lat": 19.08563,
+                "lng": 72.88362
+              },
+              {
+                "id": "MUM-S1-T1-M9",
+                "label": "Meter 9",
+                "lat": 19.0838,
+                "lng": 72.88192
+              },
+              {
+                "id": "MUM-S1-T1-M10",
+                "label": "Meter 10",
+                "lat": 19.0848,
+                "lng": 72.88266
+              }
+            ]
+          },
+          {
+            "id": "MUM-S1-T2",
+            "label": "Trafo 2",
+            "lat": 19.08265,
+            "lng": 72.87568,
+            "meters": [
+              {
+                "id": "MUM-S1-T2-M1",
+                "label": "Meter 1",
+                "lat": 19.08442,
+                "lng": 72.87575
+              },
+              {
+                "id": "MUM-S1-T2-M2",
+                "label": "Meter 2",
+                "lat": 19.0835,
+                "lng": 72.87678
+              },
+              {
+                "id": "MUM-S1-T2-M3",
+                "label": "Meter 3",
+                "lat": 19.0822,
+                "lng": 72.87409
+              },
+              {
+                "id": "MUM-S1-T2-M4",
+                "label": "Meter 4",
+                "lat": 19.08352,
+                "lng": 72.87614
+              },
+              {
+                "id": "MUM-S1-T2-M5",
+                "label": "Meter 5",
+                "lat": 19.08358,
+                "lng": 72.87622
+              },
+              {
+                "id": "MUM-S1-T2-M6",
+                "label": "Meter 6",
+                "lat": 19.08464,
+                "lng": 72.87724
+              },
+              {
+                "id": "MUM-S1-T2-M7",
+                "label": "Meter 7",
+                "lat": 19.08273,
+                "lng": 72.87699
+              },
+              {
+                "id": "MUM-S1-T2-M8",
+                "label": "Meter 8",
+                "lat": 19.08251,
+                "lng": 72.87505
+              },
+              {
+                "id": "MUM-S1-T2-M9",
+                "label": "Meter 9",
+                "lat": 19.08408,
+                "lng": 72.87465
+              },
+              {
+                "id": "MUM-S1-T2-M10",
+                "label": "Meter 10",
+                "lat": 19.08235,
+                "lng": 72.87755
+              }
+            ]
+          },
+          {
+            "id": "MUM-S1-T3",
+            "label": "Trafo 3",
+            "lat": 19.07467,
+            "lng": 72.89295,
+            "meters": [
+              {
+                "id": "MUM-S1-T3-M1",
+                "label": "Meter 1",
+                "lat": 19.07399,
+                "lng": 72.89178
+              },
+              {
+                "id": "MUM-S1-T3-M2",
+                "label": "Meter 2",
+                "lat": 19.07407,
+                "lng": 72.89272
+              },
+              {
+                "id": "MUM-S1-T3-M3",
+                "label": "Meter 3",
+                "lat": 19.07432,
+                "lng": 72.89311
+              },
+              {
+                "id": "MUM-S1-T3-M4",
+                "label": "Meter 4",
+                "lat": 19.07347,
+                "lng": 72.89368
+              },
+              {
+                "id": "MUM-S1-T3-M5",
+                "label": "Meter 5",
+                "lat": 19.07578,
+                "lng": 72.89495
+              },
+              {
+                "id": "MUM-S1-T3-M6",
+                "label": "Meter 6",
+                "lat": 19.0745,
+                "lng": 72.89328
+              },
+              {
+                "id": "MUM-S1-T3-M7",
+                "label": "Meter 7",
+                "lat": 19.07365,
+                "lng": 72.89107
+              },
+              {
+                "id": "MUM-S1-T3-M8",
+                "label": "Meter 8",
+                "lat": 19.07527,
+                "lng": 72.89222
+              },
+              {
+                "id": "MUM-S1-T3-M9",
+                "label": "Meter 9",
+                "lat": 19.07573,
+                "lng": 72.89296
+              },
+              {
+                "id": "MUM-S1-T3-M10",
+                "label": "Meter 10",
+                "lat": 19.07486,
+                "lng": 72.89198
+              }
+            ]
+          },
+          {
+            "id": "MUM-S1-T4",
+            "label": "Trafo 4",
+            "lat": 19.07609,
+            "lng": 72.88618,
+            "meters": [
+              {
+                "id": "MUM-S1-T4-M1",
+                "label": "Meter 1",
+                "lat": 19.07664,
+                "lng": 72.88541
+              },
+              {
+                "id": "MUM-S1-T4-M2",
+                "label": "Meter 2",
+                "lat": 19.07425,
+                "lng": 72.88572
+              },
+              {
+                "id": "MUM-S1-T4-M3",
+                "label": "Meter 3",
+                "lat": 19.07694,
+                "lng": 72.88786
+              },
+              {
+                "id": "MUM-S1-T4-M4",
+                "label": "Meter 4",
+                "lat": 19.07775,
+                "lng": 72.88523
+              },
+              {
+                "id": "MUM-S1-T4-M5",
+                "label": "Meter 5",
+                "lat": 19.07741,
+                "lng": 72.88738
+              },
+              {
+                "id": "MUM-S1-T4-M6",
+                "label": "Meter 6",
+                "lat": 19.07671,
+                "lng": 72.88622
+              },
+              {
+                "id": "MUM-S1-T4-M7",
+                "label": "Meter 7",
+                "lat": 19.07701,
+                "lng": 72.88762
+              },
+              {
+                "id": "MUM-S1-T4-M8",
+                "label": "Meter 8",
+                "lat": 19.07738,
+                "lng": 72.88705
+              },
+              {
+                "id": "MUM-S1-T4-M9",
+                "label": "Meter 9",
+                "lat": 19.07589,
+                "lng": 72.88557
+              },
+              {
+                "id": "MUM-S1-T4-M10",
+                "label": "Meter 10",
+                "lat": 19.07799,
+                "lng": 72.88691
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MUM-S2",
+        "label": "Mumbai Substation 2",
+        "lat": 19.10701,
+        "lng": 72.88716,
+        "transformers": [
+          {
+            "id": "MUM-S2-T1",
+            "label": "Trafo 1",
+            "lat": 19.11646,
+            "lng": 72.88928,
+            "meters": [
+              {
+                "id": "MUM-S2-T1-M1",
+                "label": "Meter 1",
+                "lat": 19.11657,
+                "lng": 72.88754
+              },
+              {
+                "id": "MUM-S2-T1-M2",
+                "label": "Meter 2",
+                "lat": 19.11545,
+                "lng": 72.88953
+              },
+              {
+                "id": "MUM-S2-T1-M3",
+                "label": "Meter 3",
+                "lat": 19.11803,
+                "lng": 72.88803
+              },
+              {
+                "id": "MUM-S2-T1-M4",
+                "label": "Meter 4",
+                "lat": 19.11458,
+                "lng": 72.88899
+              },
+              {
+                "id": "MUM-S2-T1-M5",
+                "label": "Meter 5",
+                "lat": 19.1154,
+                "lng": 72.89096
+              },
+              {
+                "id": "MUM-S2-T1-M6",
+                "label": "Meter 6",
+                "lat": 19.11723,
+                "lng": 72.88932
+              },
+              {
+                "id": "MUM-S2-T1-M7",
+                "label": "Meter 7",
+                "lat": 19.11786,
+                "lng": 72.88891
+              },
+              {
+                "id": "MUM-S2-T1-M8",
+                "label": "Meter 8",
+                "lat": 19.11636,
+                "lng": 72.89114
+              },
+              {
+                "id": "MUM-S2-T1-M9",
+                "label": "Meter 9",
+                "lat": 19.11802,
+                "lng": 72.8885
+              },
+              {
+                "id": "MUM-S2-T1-M10",
+                "label": "Meter 10",
+                "lat": 19.11598,
+                "lng": 72.8906
+              }
+            ]
+          },
+          {
+            "id": "MUM-S2-T2",
+            "label": "Trafo 2",
+            "lat": 19.11628,
+            "lng": 72.88247,
+            "meters": [
+              {
+                "id": "MUM-S2-T2-M1",
+                "label": "Meter 1",
+                "lat": 19.11585,
+                "lng": 72.88166
+              },
+              {
+                "id": "MUM-S2-T2-M2",
+                "label": "Meter 2",
+                "lat": 19.11597,
+                "lng": 72.88371
+              },
+              {
+                "id": "MUM-S2-T2-M3",
+                "label": "Meter 3",
+                "lat": 19.11798,
+                "lng": 72.88212
+              },
+              {
+                "id": "MUM-S2-T2-M4",
+                "label": "Meter 4",
+                "lat": 19.11462,
+                "lng": 72.88344
+              },
+              {
+                "id": "MUM-S2-T2-M5",
+                "label": "Meter 5",
+                "lat": 19.11506,
+                "lng": 72.88276
+              },
+              {
+                "id": "MUM-S2-T2-M6",
+                "label": "Meter 6",
+                "lat": 19.11772,
+                "lng": 72.88121
+              },
+              {
+                "id": "MUM-S2-T2-M7",
+                "label": "Meter 7",
+                "lat": 19.11803,
+                "lng": 72.88391
+              },
+              {
+                "id": "MUM-S2-T2-M8",
+                "label": "Meter 8",
+                "lat": 19.11568,
+                "lng": 72.88096
+              },
+              {
+                "id": "MUM-S2-T2-M9",
+                "label": "Meter 9",
+                "lat": 19.1179,
+                "lng": 72.8826
+              },
+              {
+                "id": "MUM-S2-T2-M10",
+                "label": "Meter 10",
+                "lat": 19.11449,
+                "lng": 72.88431
+              }
+            ]
+          },
+          {
+            "id": "MUM-S2-T3",
+            "label": "Trafo 3",
+            "lat": 19.11629,
+            "lng": 72.87865,
+            "meters": [
+              {
+                "id": "MUM-S2-T3-M1",
+                "label": "Meter 1",
+                "lat": 19.1155,
+                "lng": 72.87871
+              },
+              {
+                "id": "MUM-S2-T3-M2",
+                "label": "Meter 2",
+                "lat": 19.11464,
+                "lng": 72.87718
+              },
+              {
+                "id": "MUM-S2-T3-M3",
+                "label": "Meter 3",
+                "lat": 19.1162,
+                "lng": 72.87988
+              },
+              {
+                "id": "MUM-S2-T3-M4",
+                "label": "Meter 4",
+                "lat": 19.11689,
+                "lng": 72.88046
+              },
+              {
+                "id": "MUM-S2-T3-M5",
+                "label": "Meter 5",
+                "lat": 19.11536,
+                "lng": 72.87982
+              },
+              {
+                "id": "MUM-S2-T3-M6",
+                "label": "Meter 6",
+                "lat": 19.11823,
+                "lng": 72.88031
+              },
+              {
+                "id": "MUM-S2-T3-M7",
+                "label": "Meter 7",
+                "lat": 19.11505,
+                "lng": 72.87884
+              },
+              {
+                "id": "MUM-S2-T3-M8",
+                "label": "Meter 8",
+                "lat": 19.11826,
+                "lng": 72.87828
+              },
+              {
+                "id": "MUM-S2-T3-M9",
+                "label": "Meter 9",
+                "lat": 19.116,
+                "lng": 72.87697
+              },
+              {
+                "id": "MUM-S2-T3-M10",
+                "label": "Meter 10",
+                "lat": 19.11708,
+                "lng": 72.88009
+              }
+            ]
+          },
+          {
+            "id": "MUM-S2-T4",
+            "label": "Trafo 4",
+            "lat": 19.11225,
+            "lng": 72.88654,
+            "meters": [
+              {
+                "id": "MUM-S2-T4-M1",
+                "label": "Meter 1",
+                "lat": 19.11042,
+                "lng": 72.88643
+              },
+              {
+                "id": "MUM-S2-T4-M2",
+                "label": "Meter 2",
+                "lat": 19.11167,
+                "lng": 72.88832
+              },
+              {
+                "id": "MUM-S2-T4-M3",
+                "label": "Meter 3",
+                "lat": 19.11251,
+                "lng": 72.88852
+              },
+              {
+                "id": "MUM-S2-T4-M4",
+                "label": "Meter 4",
+                "lat": 19.11181,
+                "lng": 72.88794
+              },
+              {
+                "id": "MUM-S2-T4-M5",
+                "label": "Meter 5",
+                "lat": 19.11298,
+                "lng": 72.88561
+              },
+              {
+                "id": "MUM-S2-T4-M6",
+                "label": "Meter 6",
+                "lat": 19.11342,
+                "lng": 72.888
+              },
+              {
+                "id": "MUM-S2-T4-M7",
+                "label": "Meter 7",
+                "lat": 19.11089,
+                "lng": 72.88606
+              },
+              {
+                "id": "MUM-S2-T4-M8",
+                "label": "Meter 8",
+                "lat": 19.11424,
+                "lng": 72.88476
+              },
+              {
+                "id": "MUM-S2-T4-M9",
+                "label": "Meter 9",
+                "lat": 19.11259,
+                "lng": 72.88571
+              },
+              {
+                "id": "MUM-S2-T4-M10",
+                "label": "Meter 10",
+                "lat": 19.11419,
+                "lng": 72.8881
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MUM-S3",
+        "label": "Mumbai Substation 3",
+        "lat": 19.11357,
+        "lng": 72.87551,
+        "transformers": [
+          {
+            "id": "MUM-S3-T1",
+            "label": "Trafo 1",
+            "lat": 19.11701,
+            "lng": 72.87576,
+            "meters": [
+              {
+                "id": "MUM-S3-T1-M1",
+                "label": "Meter 1",
+                "lat": 19.11607,
+                "lng": 72.8749
+              },
+              {
+                "id": "MUM-S3-T1-M2",
+                "label": "Meter 2",
+                "lat": 19.11732,
+                "lng": 72.87652
+              },
+              {
+                "id": "MUM-S3-T1-M3",
+                "label": "Meter 3",
+                "lat": 19.11753,
+                "lng": 72.87465
+              },
+              {
+                "id": "MUM-S3-T1-M4",
+                "label": "Meter 4",
+                "lat": 19.11687,
+                "lng": 72.87767
+              },
+              {
+                "id": "MUM-S3-T1-M5",
+                "label": "Meter 5",
+                "lat": 19.11764,
+                "lng": 72.87464
+              },
+              {
+                "id": "MUM-S3-T1-M6",
+                "label": "Meter 6",
+                "lat": 19.11875,
+                "lng": 72.87536
+              },
+              {
+                "id": "MUM-S3-T1-M7",
+                "label": "Meter 7",
+                "lat": 19.11798,
+                "lng": 72.87728
+              },
+              {
+                "id": "MUM-S3-T1-M8",
+                "label": "Meter 8",
+                "lat": 19.11802,
+                "lng": 72.87647
+              },
+              {
+                "id": "MUM-S3-T1-M9",
+                "label": "Meter 9",
+                "lat": 19.11746,
+                "lng": 72.87395
+              },
+              {
+                "id": "MUM-S3-T1-M10",
+                "label": "Meter 10",
+                "lat": 19.11856,
+                "lng": 72.87738
+              }
+            ]
+          },
+          {
+            "id": "MUM-S3-T2",
+            "label": "Trafo 2",
+            "lat": 19.10837,
+            "lng": 72.87196,
+            "meters": [
+              {
+                "id": "MUM-S3-T2-M1",
+                "label": "Meter 1",
+                "lat": 19.10902,
+                "lng": 72.87373
+              },
+              {
+                "id": "MUM-S3-T2-M2",
+                "label": "Meter 2",
+                "lat": 19.10763,
+                "lng": 72.87213
+              },
+              {
+                "id": "MUM-S3-T2-M3",
+                "label": "Meter 3",
+                "lat": 19.10791,
+                "lng": 72.87252
+              },
+              {
+                "id": "MUM-S3-T2-M4",
+                "label": "Meter 4",
+                "lat": 19.10739,
+                "lng": 72.87293
+              },
+              {
+                "id": "MUM-S3-T2-M5",
+                "label": "Meter 5",
+                "lat": 19.10963,
+                "lng": 72.87044
+              },
+              {
+                "id": "MUM-S3-T2-M6",
+                "label": "Meter 6",
+                "lat": 19.1064,
+                "lng": 72.87214
+              },
+              {
+                "id": "MUM-S3-T2-M7",
+                "label": "Meter 7",
+                "lat": 19.10944,
+                "lng": 72.87209
+              },
+              {
+                "id": "MUM-S3-T2-M8",
+                "label": "Meter 8",
+                "lat": 19.10715,
+                "lng": 72.87114
+              },
+              {
+                "id": "MUM-S3-T2-M9",
+                "label": "Meter 9",
+                "lat": 19.10933,
+                "lng": 72.87211
+              },
+              {
+                "id": "MUM-S3-T2-M10",
+                "label": "Meter 10",
+                "lat": 19.10762,
+                "lng": 72.87321
+              }
+            ]
+          },
+          {
+            "id": "MUM-S3-T3",
+            "label": "Trafo 3",
+            "lat": 19.10872,
+            "lng": 72.86898,
+            "meters": [
+              {
+                "id": "MUM-S3-T3-M1",
+                "label": "Meter 1",
+                "lat": 19.10698,
+                "lng": 72.87047
+              },
+              {
+                "id": "MUM-S3-T3-M2",
+                "label": "Meter 2",
+                "lat": 19.1092,
+                "lng": 72.87058
+              },
+              {
+                "id": "MUM-S3-T3-M3",
+                "label": "Meter 3",
+                "lat": 19.10759,
+                "lng": 72.86812
+              },
+              {
+                "id": "MUM-S3-T3-M4",
+                "label": "Meter 4",
+                "lat": 19.1088,
+                "lng": 72.86883
+              },
+              {
+                "id": "MUM-S3-T3-M5",
+                "label": "Meter 5",
+                "lat": 19.10746,
+                "lng": 72.86927
+              },
+              {
+                "id": "MUM-S3-T3-M6",
+                "label": "Meter 6",
+                "lat": 19.10687,
+                "lng": 72.86768
+              },
+              {
+                "id": "MUM-S3-T3-M7",
+                "label": "Meter 7",
+                "lat": 19.11004,
+                "lng": 72.86811
+              },
+              {
+                "id": "MUM-S3-T3-M8",
+                "label": "Meter 8",
+                "lat": 19.10873,
+                "lng": 72.86944
+              },
+              {
+                "id": "MUM-S3-T3-M9",
+                "label": "Meter 9",
+                "lat": 19.10935,
+                "lng": 72.86848
+              },
+              {
+                "id": "MUM-S3-T3-M10",
+                "label": "Meter 10",
+                "lat": 19.10722,
+                "lng": 72.86797
+              }
+            ]
+          },
+          {
+            "id": "MUM-S3-T4",
+            "label": "Trafo 4",
+            "lat": 19.12072,
+            "lng": 72.86847,
+            "meters": [
+              {
+                "id": "MUM-S3-T4-M1",
+                "label": "Meter 1",
+                "lat": 19.11928,
+                "lng": 72.86835
+              },
+              {
+                "id": "MUM-S3-T4-M2",
+                "label": "Meter 2",
+                "lat": 19.12108,
+                "lng": 72.86971
+              },
+              {
+                "id": "MUM-S3-T4-M3",
+                "label": "Meter 3",
+                "lat": 19.12169,
+                "lng": 72.86752
+              },
+              {
+                "id": "MUM-S3-T4-M4",
+                "label": "Meter 4",
+                "lat": 19.12051,
+                "lng": 72.86703
+              },
+              {
+                "id": "MUM-S3-T4-M5",
+                "label": "Meter 5",
+                "lat": 19.11974,
+                "lng": 72.8691
+              },
+              {
+                "id": "MUM-S3-T4-M6",
+                "label": "Meter 6",
+                "lat": 19.12083,
+                "lng": 72.86908
+              },
+              {
+                "id": "MUM-S3-T4-M7",
+                "label": "Meter 7",
+                "lat": 19.12168,
+                "lng": 72.86721
+              },
+              {
+                "id": "MUM-S3-T4-M8",
+                "label": "Meter 8",
+                "lat": 19.12271,
+                "lng": 72.86761
+              },
+              {
+                "id": "MUM-S3-T4-M9",
+                "label": "Meter 9",
+                "lat": 19.1215,
+                "lng": 72.86936
+              },
+              {
+                "id": "MUM-S3-T4-M10",
+                "label": "Meter 10",
+                "lat": 19.12076,
+                "lng": 72.87029
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "chennai": {
+    "name": "Chennai",
+    "center": [
+      13.0827,
+      80.2707
+    ],
+    "substations": [
+      {
+        "id": "CHE-S1",
+        "label": "Chennai Substation 1",
+        "lat": 13.0959,
+        "lng": 80.30402,
+        "transformers": [
+          {
+            "id": "CHE-S1-T1",
+            "label": "Trafo 1",
+            "lat": 13.08751,
+            "lng": 80.30401,
+            "meters": [
+              {
+                "id": "CHE-S1-T1-M1",
+                "label": "Meter 1",
+                "lat": 13.08575,
+                "lng": 80.30554
+              },
+              {
+                "id": "CHE-S1-T1-M2",
+                "label": "Meter 2",
+                "lat": 13.08906,
+                "lng": 80.30487
+              },
+              {
+                "id": "CHE-S1-T1-M3",
+                "label": "Meter 3",
+                "lat": 13.08594,
+                "lng": 80.30592
+              },
+              {
+                "id": "CHE-S1-T1-M4",
+                "label": "Meter 4",
+                "lat": 13.08909,
+                "lng": 80.30262
+              },
+              {
+                "id": "CHE-S1-T1-M5",
+                "label": "Meter 5",
+                "lat": 13.08669,
+                "lng": 80.30378
+              },
+              {
+                "id": "CHE-S1-T1-M6",
+                "label": "Meter 6",
+                "lat": 13.08669,
+                "lng": 80.30271
+              },
+              {
+                "id": "CHE-S1-T1-M7",
+                "label": "Meter 7",
+                "lat": 13.08723,
+                "lng": 80.30518
+              },
+              {
+                "id": "CHE-S1-T1-M8",
+                "label": "Meter 8",
+                "lat": 13.08885,
+                "lng": 80.30372
+              },
+              {
+                "id": "CHE-S1-T1-M9",
+                "label": "Meter 9",
+                "lat": 13.08689,
+                "lng": 80.30467
+              },
+              {
+                "id": "CHE-S1-T1-M10",
+                "label": "Meter 10",
+                "lat": 13.0857,
+                "lng": 80.30276
+              }
+            ]
+          },
+          {
+            "id": "CHE-S1-T2",
+            "label": "Trafo 2",
+            "lat": 13.0966,
+            "lng": 80.30398,
+            "meters": [
+              {
+                "id": "CHE-S1-T2-M1",
+                "label": "Meter 1",
+                "lat": 13.09826,
+                "lng": 80.30323
+              },
+              {
+                "id": "CHE-S1-T2-M2",
+                "label": "Meter 2",
+                "lat": 13.09754,
+                "lng": 80.30344
+              },
+              {
+                "id": "CHE-S1-T2-M3",
+                "label": "Meter 3",
+                "lat": 13.09493,
+                "lng": 80.30533
+              },
+              {
+                "id": "CHE-S1-T2-M4",
+                "label": "Meter 4",
+                "lat": 13.09513,
+                "lng": 80.3056
+              },
+              {
+                "id": "CHE-S1-T2-M5",
+                "label": "Meter 5",
+                "lat": 13.09553,
+                "lng": 80.3037
+              },
+              {
+                "id": "CHE-S1-T2-M6",
+                "label": "Meter 6",
+                "lat": 13.09598,
+                "lng": 80.30217
+              },
+              {
+                "id": "CHE-S1-T2-M7",
+                "label": "Meter 7",
+                "lat": 13.09705,
+                "lng": 80.30379
+              },
+              {
+                "id": "CHE-S1-T2-M8",
+                "label": "Meter 8",
+                "lat": 13.0985,
+                "lng": 80.30348
+              },
+              {
+                "id": "CHE-S1-T2-M9",
+                "label": "Meter 9",
+                "lat": 13.09655,
+                "lng": 80.30376
+              },
+              {
+                "id": "CHE-S1-T2-M10",
+                "label": "Meter 10",
+                "lat": 13.09631,
+                "lng": 80.30505
+              }
+            ]
+          },
+          {
+            "id": "CHE-S1-T3",
+            "label": "Trafo 3",
+            "lat": 13.09796,
+            "lng": 80.31231,
+            "meters": [
+              {
+                "id": "CHE-S1-T3-M1",
+                "label": "Meter 1",
+                "lat": 13.09635,
+                "lng": 80.31107
+              },
+              {
+                "id": "CHE-S1-T3-M2",
+                "label": "Meter 2",
+                "lat": 13.09869,
+                "lng": 80.31271
+              },
+              {
+                "id": "CHE-S1-T3-M3",
+                "label": "Meter 3",
+                "lat": 13.0982,
+                "lng": 80.31379
+              },
+              {
+                "id": "CHE-S1-T3-M4",
+                "label": "Meter 4",
+                "lat": 13.09806,
+                "lng": 80.31384
+              },
+              {
+                "id": "CHE-S1-T3-M5",
+                "label": "Meter 5",
+                "lat": 13.0989,
+                "lng": 80.31361
+              },
+              {
+                "id": "CHE-S1-T3-M6",
+                "label": "Meter 6",
+                "lat": 13.09933,
+                "lng": 80.31106
+              },
+              {
+                "id": "CHE-S1-T3-M7",
+                "label": "Meter 7",
+                "lat": 13.09862,
+                "lng": 80.31102
+              },
+              {
+                "id": "CHE-S1-T3-M8",
+                "label": "Meter 8",
+                "lat": 13.09914,
+                "lng": 80.31352
+              },
+              {
+                "id": "CHE-S1-T3-M9",
+                "label": "Meter 9",
+                "lat": 13.09777,
+                "lng": 80.31357
+              },
+              {
+                "id": "CHE-S1-T3-M10",
+                "label": "Meter 10",
+                "lat": 13.09897,
+                "lng": 80.3112
+              }
+            ]
+          },
+          {
+            "id": "CHE-S1-T4",
+            "label": "Trafo 4",
+            "lat": 13.0918,
+            "lng": 80.29855,
+            "meters": [
+              {
+                "id": "CHE-S1-T4-M1",
+                "label": "Meter 1",
+                "lat": 13.09375,
+                "lng": 80.29832
+              },
+              {
+                "id": "CHE-S1-T4-M2",
+                "label": "Meter 2",
+                "lat": 13.09314,
+                "lng": 80.30015
+              },
+              {
+                "id": "CHE-S1-T4-M3",
+                "label": "Meter 3",
+                "lat": 13.08981,
+                "lng": 80.29816
+              },
+              {
+                "id": "CHE-S1-T4-M4",
+                "label": "Meter 4",
+                "lat": 13.09081,
+                "lng": 80.29802
+              },
+              {
+                "id": "CHE-S1-T4-M5",
+                "label": "Meter 5",
+                "lat": 13.09278,
+                "lng": 80.29982
+              },
+              {
+                "id": "CHE-S1-T4-M6",
+                "label": "Meter 6",
+                "lat": 13.09164,
+                "lng": 80.29885
+              },
+              {
+                "id": "CHE-S1-T4-M7",
+                "label": "Meter 7",
+                "lat": 13.09215,
+                "lng": 80.29803
+              },
+              {
+                "id": "CHE-S1-T4-M8",
+                "label": "Meter 8",
+                "lat": 13.09035,
+                "lng": 80.29976
+              },
+              {
+                "id": "CHE-S1-T4-M9",
+                "label": "Meter 9",
+                "lat": 13.09056,
+                "lng": 80.29682
+              },
+              {
+                "id": "CHE-S1-T4-M10",
+                "label": "Meter 10",
+                "lat": 13.09006,
+                "lng": 80.29979
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CHE-S2",
+        "label": "Chennai Substation 2",
+        "lat": 13.10822,
+        "lng": 80.26468,
+        "transformers": [
+          {
+            "id": "CHE-S2-T1",
+            "label": "Trafo 1",
+            "lat": 13.1135,
+            "lng": 80.26943,
+            "meters": [
+              {
+                "id": "CHE-S2-T1-M1",
+                "label": "Meter 1",
+                "lat": 13.11191,
+                "lng": 80.26951
+              },
+              {
+                "id": "CHE-S2-T1-M2",
+                "label": "Meter 2",
+                "lat": 13.11208,
+                "lng": 80.2692
+              },
+              {
+                "id": "CHE-S2-T1-M3",
+                "label": "Meter 3",
+                "lat": 13.11425,
+                "lng": 80.27089
+              },
+              {
+                "id": "CHE-S2-T1-M4",
+                "label": "Meter 4",
+                "lat": 13.11441,
+                "lng": 80.26868
+              },
+              {
+                "id": "CHE-S2-T1-M5",
+                "label": "Meter 5",
+                "lat": 13.11503,
+                "lng": 80.26897
+              },
+              {
+                "id": "CHE-S2-T1-M6",
+                "label": "Meter 6",
+                "lat": 13.11381,
+                "lng": 80.26857
+              },
+              {
+                "id": "CHE-S2-T1-M7",
+                "label": "Meter 7",
+                "lat": 13.11236,
+                "lng": 80.27062
+              },
+              {
+                "id": "CHE-S2-T1-M8",
+                "label": "Meter 8",
+                "lat": 13.11213,
+                "lng": 80.26834
+              },
+              {
+                "id": "CHE-S2-T1-M9",
+                "label": "Meter 9",
+                "lat": 13.11517,
+                "lng": 80.26763
+              },
+              {
+                "id": "CHE-S2-T1-M10",
+                "label": "Meter 10",
+                "lat": 13.11515,
+                "lng": 80.26891
+              }
+            ]
+          },
+          {
+            "id": "CHE-S2-T2",
+            "label": "Trafo 2",
+            "lat": 13.10835,
+            "lng": 80.26085,
+            "meters": [
+              {
+                "id": "CHE-S2-T2-M1",
+                "label": "Meter 1",
+                "lat": 13.10928,
+                "lng": 80.26132
+              },
+              {
+                "id": "CHE-S2-T2-M2",
+                "label": "Meter 2",
+                "lat": 13.10897,
+                "lng": 80.25973
+              },
+              {
+                "id": "CHE-S2-T2-M3",
+                "label": "Meter 3",
+                "lat": 13.1085,
+                "lng": 80.26017
+              },
+              {
+                "id": "CHE-S2-T2-M4",
+                "label": "Meter 4",
+                "lat": 13.10938,
+                "lng": 80.26281
+              },
+              {
+                "id": "CHE-S2-T2-M5",
+                "label": "Meter 5",
+                "lat": 13.10716,
+                "lng": 80.25989
+              },
+              {
+                "id": "CHE-S2-T2-M6",
+                "label": "Meter 6",
+                "lat": 13.10884,
+                "lng": 80.2593
+              },
+              {
+                "id": "CHE-S2-T2-M7",
+                "label": "Meter 7",
+                "lat": 13.11015,
+                "lng": 80.25932
+              },
+              {
+                "id": "CHE-S2-T2-M8",
+                "label": "Meter 8",
+                "lat": 13.10896,
+                "lng": 80.26148
+              },
+              {
+                "id": "CHE-S2-T2-M9",
+                "label": "Meter 9",
+                "lat": 13.11004,
+                "lng": 80.26111
+              },
+              {
+                "id": "CHE-S2-T2-M10",
+                "label": "Meter 10",
+                "lat": 13.10941,
+                "lng": 80.26014
+              }
+            ]
+          },
+          {
+            "id": "CHE-S2-T3",
+            "label": "Trafo 3",
+            "lat": 13.11734,
+            "lng": 80.2743,
+            "meters": [
+              {
+                "id": "CHE-S2-T3-M1",
+                "label": "Meter 1",
+                "lat": 13.11707,
+                "lng": 80.27438
+              },
+              {
+                "id": "CHE-S2-T3-M2",
+                "label": "Meter 2",
+                "lat": 13.11918,
+                "lng": 80.27328
+              },
+              {
+                "id": "CHE-S2-T3-M3",
+                "label": "Meter 3",
+                "lat": 13.11753,
+                "lng": 80.27308
+              },
+              {
+                "id": "CHE-S2-T3-M4",
+                "label": "Meter 4",
+                "lat": 13.11574,
+                "lng": 80.27317
+              },
+              {
+                "id": "CHE-S2-T3-M5",
+                "label": "Meter 5",
+                "lat": 13.11818,
+                "lng": 80.27618
+              },
+              {
+                "id": "CHE-S2-T3-M6",
+                "label": "Meter 6",
+                "lat": 13.11893,
+                "lng": 80.27402
+              },
+              {
+                "id": "CHE-S2-T3-M7",
+                "label": "Meter 7",
+                "lat": 13.11788,
+                "lng": 80.2741
+              },
+              {
+                "id": "CHE-S2-T3-M8",
+                "label": "Meter 8",
+                "lat": 13.11804,
+                "lng": 80.27457
+              },
+              {
+                "id": "CHE-S2-T3-M9",
+                "label": "Meter 9",
+                "lat": 13.11822,
+                "lng": 80.27602
+              },
+              {
+                "id": "CHE-S2-T3-M10",
+                "label": "Meter 10",
+                "lat": 13.11886,
+                "lng": 80.27295
+              }
+            ]
+          },
+          {
+            "id": "CHE-S2-T4",
+            "label": "Trafo 4",
+            "lat": 13.11415,
+            "lng": 80.26366,
+            "meters": [
+              {
+                "id": "CHE-S2-T4-M1",
+                "label": "Meter 1",
+                "lat": 13.11505,
+                "lng": 80.26387
+              },
+              {
+                "id": "CHE-S2-T4-M2",
+                "label": "Meter 2",
+                "lat": 13.11567,
+                "lng": 80.2625
+              },
+              {
+                "id": "CHE-S2-T4-M3",
+                "label": "Meter 3",
+                "lat": 13.11378,
+                "lng": 80.26561
+              },
+              {
+                "id": "CHE-S2-T4-M4",
+                "label": "Meter 4",
+                "lat": 13.11571,
+                "lng": 80.26413
+              },
+              {
+                "id": "CHE-S2-T4-M5",
+                "label": "Meter 5",
+                "lat": 13.1161,
+                "lng": 80.26496
+              },
+              {
+                "id": "CHE-S2-T4-M6",
+                "label": "Meter 6",
+                "lat": 13.11256,
+                "lng": 80.26557
+              },
+              {
+                "id": "CHE-S2-T4-M7",
+                "label": "Meter 7",
+                "lat": 13.11216,
+                "lng": 80.26438
+              },
+              {
+                "id": "CHE-S2-T4-M8",
+                "label": "Meter 8",
+                "lat": 13.11443,
+                "lng": 80.26483
+              },
+              {
+                "id": "CHE-S2-T4-M9",
+                "label": "Meter 9",
+                "lat": 13.11291,
+                "lng": 80.26241
+              },
+              {
+                "id": "CHE-S2-T4-M10",
+                "label": "Meter 10",
+                "lat": 13.11231,
+                "lng": 80.26346
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CHE-S3",
+        "label": "Chennai Substation 3",
+        "lat": 13.04677,
+        "lng": 80.26795,
+        "transformers": [
+          {
+            "id": "CHE-S3-T1",
+            "label": "Trafo 1",
+            "lat": 13.04629,
+            "lng": 80.26091,
+            "meters": [
+              {
+                "id": "CHE-S3-T1-M1",
+                "label": "Meter 1",
+                "lat": 13.04821,
+                "lng": 80.25918
+              },
+              {
+                "id": "CHE-S3-T1-M2",
+                "label": "Meter 2",
+                "lat": 13.04579,
+                "lng": 80.26021
+              },
+              {
+                "id": "CHE-S3-T1-M3",
+                "label": "Meter 3",
+                "lat": 13.04748,
+                "lng": 80.26095
+              },
+              {
+                "id": "CHE-S3-T1-M4",
+                "label": "Meter 4",
+                "lat": 13.04515,
+                "lng": 80.25929
+              },
+              {
+                "id": "CHE-S3-T1-M5",
+                "label": "Meter 5",
+                "lat": 13.0454,
+                "lng": 80.26164
+              },
+              {
+                "id": "CHE-S3-T1-M6",
+                "label": "Meter 6",
+                "lat": 13.04547,
+                "lng": 80.26041
+              },
+              {
+                "id": "CHE-S3-T1-M7",
+                "label": "Meter 7",
+                "lat": 13.04462,
+                "lng": 80.26205
+              },
+              {
+                "id": "CHE-S3-T1-M8",
+                "label": "Meter 8",
+                "lat": 13.04733,
+                "lng": 80.26052
+              },
+              {
+                "id": "CHE-S3-T1-M9",
+                "label": "Meter 9",
+                "lat": 13.04758,
+                "lng": 80.26052
+              },
+              {
+                "id": "CHE-S3-T1-M10",
+                "label": "Meter 10",
+                "lat": 13.04714,
+                "lng": 80.2614
+              }
+            ]
+          },
+          {
+            "id": "CHE-S3-T2",
+            "label": "Trafo 2",
+            "lat": 13.04514,
+            "lng": 80.26142,
+            "meters": [
+              {
+                "id": "CHE-S3-T2-M1",
+                "label": "Meter 1",
+                "lat": 13.04628,
+                "lng": 80.26095
+              },
+              {
+                "id": "CHE-S3-T2-M2",
+                "label": "Meter 2",
+                "lat": 13.04541,
+                "lng": 80.26136
+              },
+              {
+                "id": "CHE-S3-T2-M3",
+                "label": "Meter 3",
+                "lat": 13.04404,
+                "lng": 80.26216
+              },
+              {
+                "id": "CHE-S3-T2-M4",
+                "label": "Meter 4",
+                "lat": 13.04314,
+                "lng": 80.26112
+              },
+              {
+                "id": "CHE-S3-T2-M5",
+                "label": "Meter 5",
+                "lat": 13.04657,
+                "lng": 80.26326
+              },
+              {
+                "id": "CHE-S3-T2-M6",
+                "label": "Meter 6",
+                "lat": 13.04518,
+                "lng": 80.26237
+              },
+              {
+                "id": "CHE-S3-T2-M7",
+                "label": "Meter 7",
+                "lat": 13.04531,
+                "lng": 80.26178
+              },
+              {
+                "id": "CHE-S3-T2-M8",
+                "label": "Meter 8",
+                "lat": 13.04655,
+                "lng": 80.26179
+              },
+              {
+                "id": "CHE-S3-T2-M9",
+                "label": "Meter 9",
+                "lat": 13.04549,
+                "lng": 80.26257
+              },
+              {
+                "id": "CHE-S3-T2-M10",
+                "label": "Meter 10",
+                "lat": 13.04653,
+                "lng": 80.2596
+              }
+            ]
+          },
+          {
+            "id": "CHE-S3-T3",
+            "label": "Trafo 3",
+            "lat": 13.05642,
+            "lng": 80.27113,
+            "meters": [
+              {
+                "id": "CHE-S3-T3-M1",
+                "label": "Meter 1",
+                "lat": 13.05569,
+                "lng": 80.27273
+              },
+              {
+                "id": "CHE-S3-T3-M2",
+                "label": "Meter 2",
+                "lat": 13.05749,
+                "lng": 80.27207
+              },
+              {
+                "id": "CHE-S3-T3-M3",
+                "label": "Meter 3",
+                "lat": 13.05552,
+                "lng": 80.27016
+              },
+              {
+                "id": "CHE-S3-T3-M4",
+                "label": "Meter 4",
+                "lat": 13.05638,
+                "lng": 80.27066
+              },
+              {
+                "id": "CHE-S3-T3-M5",
+                "label": "Meter 5",
+                "lat": 13.05784,
+                "lng": 80.27212
+              },
+              {
+                "id": "CHE-S3-T3-M6",
+                "label": "Meter 6",
+                "lat": 13.05726,
+                "lng": 80.26956
+              },
+              {
+                "id": "CHE-S3-T3-M7",
+                "label": "Meter 7",
+                "lat": 13.05827,
+                "lng": 80.27296
+              },
+              {
+                "id": "CHE-S3-T3-M8",
+                "label": "Meter 8",
+                "lat": 13.05828,
+                "lng": 80.27101
+              },
+              {
+                "id": "CHE-S3-T3-M9",
+                "label": "Meter 9",
+                "lat": 13.05595,
+                "lng": 80.27175
+              },
+              {
+                "id": "CHE-S3-T3-M10",
+                "label": "Meter 10",
+                "lat": 13.0575,
+                "lng": 80.27183
+              }
+            ]
+          },
+          {
+            "id": "CHE-S3-T4",
+            "label": "Trafo 4",
+            "lat": 13.05398,
+            "lng": 80.27452,
+            "meters": [
+              {
+                "id": "CHE-S3-T4-M1",
+                "label": "Meter 1",
+                "lat": 13.05481,
+                "lng": 80.2743
+              },
+              {
+                "id": "CHE-S3-T4-M2",
+                "label": "Meter 2",
+                "lat": 13.05585,
+                "lng": 80.27354
+              },
+              {
+                "id": "CHE-S3-T4-M3",
+                "label": "Meter 3",
+                "lat": 13.05523,
+                "lng": 80.27458
+              },
+              {
+                "id": "CHE-S3-T4-M4",
+                "label": "Meter 4",
+                "lat": 13.05204,
+                "lng": 80.2765
+              },
+              {
+                "id": "CHE-S3-T4-M5",
+                "label": "Meter 5",
+                "lat": 13.05437,
+                "lng": 80.2754
+              },
+              {
+                "id": "CHE-S3-T4-M6",
+                "label": "Meter 6",
+                "lat": 13.0542,
+                "lng": 80.27406
+              },
+              {
+                "id": "CHE-S3-T4-M7",
+                "label": "Meter 7",
+                "lat": 13.05582,
+                "lng": 80.27351
+              },
+              {
+                "id": "CHE-S3-T4-M8",
+                "label": "Meter 8",
+                "lat": 13.05215,
+                "lng": 80.27341
+              },
+              {
+                "id": "CHE-S3-T4-M9",
+                "label": "Meter 9",
+                "lat": 13.055,
+                "lng": 80.27359
+              },
+              {
+                "id": "CHE-S3-T4-M10",
+                "label": "Meter 10",
+                "lat": 13.05215,
+                "lng": 80.27571
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
