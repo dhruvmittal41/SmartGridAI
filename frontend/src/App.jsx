@@ -3,6 +3,7 @@ import NationalGrid from "./pages/NationalGrid"
 
 import MeterView from "./pages/MeterView"
 import DashboardLayout from "./pages/DashboardLayout"
+import Landing from "./pages/Landing"
 
 export default function App() {
 
@@ -11,8 +12,8 @@ export default function App() {
     <BrowserRouter>
 
       <Routes>
-
-        <Route path="/" element={<NationalGrid />} />
+        <Route path="/" element={<Landing/>} />
+        <Route path="/National" element={<NationalGrid />} />
 
         <Route path="/city/:cityId" element={<DashboardLayout />} />
 
