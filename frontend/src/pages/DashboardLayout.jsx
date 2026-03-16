@@ -179,7 +179,7 @@ export default function DashboardLayout() {
             <div style={styles.title}>Telemetry Stream</div>
             <span style={styles.statusDot} title={isConnected ? "WebSocket Connected" : "Disconnected"}></span>
             
-            {!isFullScreen && (
+            {/* {!isFullScreen && (
               <select 
                 style={styles.select} 
                 value={cityId} 
@@ -194,7 +194,7 @@ export default function DashboardLayout() {
                 <option value="mumbai" style={{color: "#000"}}>Mumbai</option>
                 <option value="chennai" style={{color: "#000"}}>Chennai</option>
               </select>
-            )}
+            )} */}
           </div>
 
           <div style={styles.headerRight}>

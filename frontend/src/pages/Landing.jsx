@@ -346,7 +346,7 @@ width:320px;
 <div className="nav-links">
 <a href="#features">Features</a>
 <a href="#about">About</a>
-<a href="#stats">Stats</a>
+{/* <a href="#stats">Stats</a> */}
 </div>
 </div>
 
@@ -365,7 +365,7 @@ reliable and efficient power infrastructure.
 </p>
 
 <Link to="/National">
-<button className="hero-btn">National Grid Link</button>
+<button className="hero-btn">National Grid Selection Dashboard</button>
 </Link>
 
 </div>
@@ -431,7 +431,7 @@ potential failures before they disrupt power distribution.
 <p>Access the AI dashboard and explore real-time grid analytics.</p>
 
 <Link to="/National">
-<button className="hero-btn">Grid Link</button>
+<button className="hero-btn">Select Regional Grid</button>
 </Link>
 
 </section>

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
 
 const REGIONAL_DATA = {
   "Uttar Pradesh": ["Aligarh", "Lucknow", "Noida", "Kanpur"],
@@ -9,12 +10,36 @@ const REGIONAL_DATA = {
   "Tamil Nadu": ["Chennai", "Coimbatore", "Madurai"]
 };
 
+// Added 'glow' properties to match the gradients
+const SUBSTATIONS = [
+  {
+    id: "substation1",
+    name: "Substation 1",
+    color: "linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%)",
+    glow: "rgba(255, 75, 43, 0.6)", 
+    icon: "⚡"
+  },
+  {
+    id: "substation2",
+    name: "Substation 2",
+    color: "linear-gradient(135deg, #00c6ff 0%, #0072ff 100%)",
+    glow: "rgba(0, 198, 255, 0.6)",
+    icon: "🔌"
+  },
+  {
+    id: "substation3",
+    name: "Substation 3",
+    color: "linear-gradient(135deg, #00f260 0%, #0575e6 100%)",
+    glow: "rgba(0, 242, 96, 0.6)",
+    icon: "🔋"
+  }
+];
+
 export default function SystemNavigator() {
   const [time, setTime] = useState(new Date().toLocaleString());
   const [selectedState, setSelectedState] = useState("");
   const [selectedCity, setSelectedCity] = useState("");
-  const [isButtonHovered, setIsButtonHovered] = useState(false);
-  
+
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -24,231 +49,298 @@ export default function SystemNavigator() {
 
   const handleStateChange = (e) => {
     setSelectedState(e.target.value);
-    setSelectedCity(""); 
+    setSelectedCity("");
   };
 
   const handleCityChange = (e) => {
     setSelectedCity(e.target.value);
   };
 
-  const initiateUplink = () => {
-    if (selectedCity) {
-      const formattedCity = selectedCity.toLowerCase().replace(/\s+/g, '-');
-      navigate(`/dashboard/${formattedCity}`);
-    }
-  };
+  const openSubstationDashboard = (station) => {
+    const formattedCity = selectedCity.toLowerCase().replace(/\s+/g, "-");
 
-  // --- GLASSMORPHISM & DARK GRADIENT THEME ---
-  const textColor = "#e2e8f0"; 
-  const titleColor = "#ffffff"; 
-  const subtextColor = "#94a3b8"; 
-
-  // Reusable Glass panel style
-  const glassStyle = {
-    background: "rgba(30, 41, 59, 0.4)", // Semi-transparent dark blue/grey
-    backdropFilter: "blur(16px)",
-    WebkitBackdropFilter: "blur(16px)", // For Safari
-    border: "1px solid rgba(255, 255, 255, 0.08)",
-    boxShadow: "0 8px 32px 0 rgba(0, 0, 0, 0.3)",
-    borderRadius: "16px",
+    Swal.fire({
+      title: 'Initialize Uplink?',
+      text: `Establish connection to ${station.name} in ${selectedCity}?`,
+      icon: 'info',
+      showCancelButton: true,
+      confirmButtonColor: '#00f2fe',
+      cancelButtonColor: '#334155',
+      confirmButtonText: 'Yes, Connect',
+      cancelButtonText: 'Cancel',
+      background: '#0f172a',
+      color: '#e2e8f0',
+      backdrop: 'rgba(0,0,0,0.6)',
+    }).then((result) => {
+      if (result.isConfirmed) {
+        navigate(`/dashboard/${formattedCity}`);
+      }
+    });
   };
 
   const styles = {
-    wrapper: { 
-      // Deep ambient gradient background (Dark Purple to Dark Blue)
-      background: "linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #0f172a 100%)",
-      color: textColor, 
-      fontFamily: "system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif", 
-      padding: "2rem", 
-      minHeight: "100vh", 
-      display: "flex", 
-      flexDirection: "column", 
-      boxSizing: "border-box",
-      gap: "2rem"
+    wrapper: {
+      // Kept the same dark space background
+      background: "radial-gradient(circle at top, #1e1e38, #0f172a, #020617)",
+      color: "#e2e8f0",
+      fontFamily: "'Inter', system-ui, -apple-system, sans-serif",
+      padding: "2rem",
+      minHeight: "100vh",
+      display: "flex",
+      flexDirection: "column",
+      gap: "1.5rem",
+      boxSizing: "border-box"
     },
-    header: { 
-      ...glassStyle,
-      display: "flex", 
-      justifyContent: "space-between", 
-      alignItems: "center", 
-      padding: "1.5rem 2rem", 
+
+    // Base glass properties shared among sections
+    baseGlass: {
+      backdropFilter: "blur(16px)",
+      WebkitBackdropFilter: "blur(16px)",
+      borderRadius: "20px",
+      boxShadow: "0 8px 32px rgba(0, 0, 0, 0.3)"
     },
-    title: { 
-      fontSize: "1.5rem", 
-      fontWeight: "600",
-      color: titleColor,
+
+    header: {
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center",
+      padding: "1.2rem 2rem",
+      // Purple tint
+      background: "rgba(88, 28, 135, 0.35)", 
+      border: "1px solid rgba(168, 85, 247, 0.4)",
+    },
+
+    title: {
+      fontSize: "1.75rem",
+      fontWeight: "700",
+      background: "linear-gradient(to right, #fff, #d8b4fe)",
+      WebkitBackgroundClip: "text",
+      WebkitTextFillColor: "transparent",
       letterSpacing: "0.5px"
     },
-    telemetry: { 
-      fontSize: "0.95rem", 
-      fontWeight: "500",
+
+    telemetry: {
       textAlign: "right",
-      color: subtextColor
-    },
-    statusIndicator: {
-      display: "inline-block",
-      width: "10px",
-      height: "10px",
-      borderRadius: "50%",
-      backgroundColor: "#00f2fe", // Electric blue glow
-      marginRight: "8px",
-      boxShadow: "0 0 10px #00f2fe, 0 0 20px #00f2fe"
-    },
-    controlsArea: { 
-      ...glassStyle,
-      display: "flex", 
-      gap: "20px", 
-      alignItems: "center", 
-      padding: "1.5rem 2rem", 
-    },
-    label: {
-      fontWeight: "500",
-      fontSize: "1rem",
-      color: titleColor
-    },
-    selectBox: { 
-      backgroundColor: "rgba(15, 23, 42, 0.6)", // Darker translucent background for select
-      color: titleColor, 
-      border: "1px solid rgba(255, 255, 255, 0.1)", 
-      padding: "12px 20px", 
-      borderRadius: "12px",
-      fontFamily: "inherit",
-      fontSize: "1rem",
-      outline: "none", 
-      cursor: "pointer",
-      minWidth: "200px",
-      transition: "border-color 0.2s"
-    },
-    button: { 
-      // Vibrant Purple-to-Blue gradient for the call-to-action
-      background: "linear-gradient(90deg, #4facfe 0%, #00f2fe 100%)",
-      color: "#0f172a", // Dark text for contrast against bright button
-      border: "none", 
-      padding: "12px 28px", 
-      borderRadius: "12px",
-      fontFamily: "inherit", 
-      fontSize: "1rem",
-      fontWeight: "700", 
-      cursor: "pointer", 
-      boxShadow: isButtonHovered 
-        ? "0 0 20px rgba(0, 242, 254, 0.6)" 
-        : "0 4px 15px rgba(0, 0, 0, 0.2)",
-      transition: "all 0.3s ease",
-      marginLeft: "auto",
-      transform: isButtonHovered ? "translateY(-2px)" : "translateY(0)"
-    },
-    viewFrame: { 
-      ...glassStyle,
-      flexGrow: 1, 
-      position: "relative", 
-      display: "flex", 
+      fontSize: "0.95rem",
+      color: "#d8b4fe",
+      display: "flex",
       flexDirection: "column",
-      padding: "2rem"
+      gap: "4px"
     },
-    standbyScreen: { 
-      flexGrow: 1, 
-      display: "flex", 
-      flexDirection: "column", 
-      justifyContent: "center", 
-      alignItems: "center", 
-      textAlign: "center" 
+
+    statusIndicator: {
+      width: "12px",
+      height: "12px",
+      borderRadius: "50%",
+      background: "#00f2fe",
+      boxShadow: "0 0 12px #00f2fe, 0 0 24px #00f2fe"
     },
+
+    controlsArea: {
+      display: "flex",
+      gap: "20px",
+      alignItems: "center",
+      padding: "1.5rem 2rem",
+      // Teal tint
+      background: "rgba(15, 118, 110, 0.35)", 
+      border: "1px solid rgba(45, 212, 191, 0.4)",
+    },
+
+    selectBox: {
+      background: "rgba(2, 44, 34, 0.8)", // Darker inner teal
+      color: "#ccfbf1",
+      border: "1px solid rgba(45, 212, 191, 0.3)",
+      padding: "14px 20px",
+      borderRadius: "12px",
+      fontSize: "1rem",
+      minWidth: "220px",
+      outline: "none",
+      cursor: "pointer",
+      transition: "border-color 0.3s ease",
+      appearance: "none"
+    },
+
+    viewFrame: {
+      flexGrow: 1,
+      padding: "2rem",
+      display: "flex",
+      flexDirection: "column",
+      // Royal blue tint
+      background: "rgba(30, 58, 138, 0.25)", 
+      border: "1px solid rgba(96, 165, 250, 0.4)",
+    },
+
+    standbyScreen: {
+      flexGrow: 1,
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      justifyContent: "center",
+      textAlign: "center"
+    },
+
     screenTitle: {
-      fontSize: "2.5rem",
-      fontWeight: "300",
-      color: titleColor,
-      marginBottom: "1rem",
-      background: "linear-gradient(90deg, #e2e8f0 0%, #94a3b8 100%)",
-      WebkitBackgroundClip: "text",
-      WebkitTextFillColor: "transparent"
+      fontSize: "2.2rem",
+      fontWeight: "400",
+      marginBottom: "0.5rem",
+      color: "#bfdbfe"
     },
+
     screenSubtitle: {
-      fontSize: "1.1rem",
-      color: subtextColor
+      color: "#93c5fd",
+      fontSize: "1.1rem"
     },
-    footer: { 
-      padding: "0.5rem 1rem", 
-      fontSize: "0.85rem", 
-      display: "flex", 
+
+    substationGrid: {
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+      gap: "2.5rem", // Slightly larger gap to accommodate the big glows
+      marginTop: "1.5rem",
+      flexGrow: 1 
+    },
+
+    substationCard: {
+      borderRadius: "24px",
+      padding: "2rem",
+      color: "#fff",
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      justifyContent: "center",
+      textAlign: "center",
+      cursor: "pointer",
+      position: "relative",
+      transition: "all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275)",
+      border: "1px solid rgba(255,255,255,0.2)",
+    },
+
+    cardIcon: {
+      fontSize: "3.5rem",
+      marginBottom: "1rem",
+      filter: "drop-shadow(0px 4px 8px rgba(0,0,0,0.4))"
+    },
+
+    cardName: {
+      fontSize: "1.6rem",
+      fontWeight: "700",
+      letterSpacing: "1px",
+      textShadow: "0 2px 4px rgba(0,0,0,0.5)"
+    },
+
+    footer: {
+      fontSize: "0.85rem",
+      display: "flex",
       justifyContent: "space-between",
-      color: subtextColor,
-      fontWeight: "500"
+      color: "#64748b",
+      padding: "0 1rem"
     }
   };
 
   return (
     <div style={styles.wrapper}>
-      {/* --- Top Control Panel --- */}
-      <div style={styles.header}>
-        <div style={styles.title}>Regional Grid Management Portal</div>
+      {/* HEADER - Purple Theme */}
+      <div style={{ ...styles.baseGlass, ...styles.header }}>
+        <div style={styles.title}>Regional Grid Management</div>
+
         <div style={styles.telemetry}>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "flex-end", marginBottom: "4px" }}>
+          <div style={{ display: "flex", gap: "10px", alignItems: "center", justifyContent: "flex-end" }}>
             <span style={styles.statusIndicator}></span>
-            <span style={{ color: titleColor, fontWeight: "600" }}>System Online</span>
+            <span style={{ color: "#f8fafc", fontWeight: "600", letterSpacing: "0.5px" }}>SYS.ONLINE</span>
           </div>
-          <div>{time}</div>
+          <div style={{ fontFamily: "monospace", marginTop: "4px" }}>{time}</div>
         </div>
       </div>
 
-      {/* --- Routing Parameters --- */}
-      <div style={styles.controlsArea}>
-        <span style={styles.label}>Target Region:</span>
-        
-        <select 
-          style={styles.selectBox} 
-          value={selectedState} 
+      {/* CONTROLS - Teal Theme */}
+      <div style={{ ...styles.baseGlass, ...styles.controlsArea }}>
+        <select
+          style={styles.selectBox}
+          value={selectedState}
           onChange={handleStateChange}
+          onFocus={(e) => (e.target.style.borderColor = "#2dd4bf")}
+          onBlur={(e) => (e.target.style.borderColor = "rgba(45, 212, 191, 0.3)")}
         >
-          <option value="" style={{ color: "#000" }}>Select State...</option>
-          {Object.keys(REGIONAL_DATA).map(state => (
-            <option key={state} value={state} style={{ color: "#000" }}>{state}</option>
-          ))}
-        </select>
-        
-        <select 
-          style={styles.selectBox} 
-          value={selectedCity} 
-          onChange={handleCityChange} 
-          disabled={!selectedState}
-        >
-          <option value="" style={{ color: "#000" }}>Select City...</option>
-          {selectedState && REGIONAL_DATA[selectedState].map(city => (
-            <option key={city} value={city} style={{ color: "#000" }}>{city}</option>
+          <option value="" disabled>Select State Region</option>
+          {Object.keys(REGIONAL_DATA).map((state) => (
+            <option key={state} value={state}>{state}</option>
           ))}
         </select>
 
-        {selectedCity && (
-          <button 
-            style={styles.button} 
-            onClick={initiateUplink}
-            onMouseEnter={() => setIsButtonHovered(true)}
-            onMouseLeave={() => setIsButtonHovered(false)}
-          >
-            Connect to Dashboard
-          </button>
+        <select
+          style={styles.selectBox}
+          value={selectedCity}
+          onChange={handleCityChange}
+          disabled={!selectedState}
+          onFocus={(e) => (e.target.style.borderColor = "#2dd4bf")}
+          onBlur={(e) => (e.target.style.borderColor = "rgba(45, 212, 191, 0.3)")}
+        >
+          <option value="" disabled>Select Target City</option>
+          {selectedState &&
+            REGIONAL_DATA[selectedState].map((city) => (
+              <option key={city} value={city}>{city}</option>
+            ))}
+        </select>
+      </div>
+
+      {/* MAIN AREA - Blue Theme */}
+      <div style={{ ...styles.baseGlass, ...styles.viewFrame }}>
+        {!selectedCity ? (
+          <div style={styles.standbyScreen}>
+            <div style={{ fontSize: "4rem", marginBottom: "1rem", opacity: 0.5 }}>📡</div>
+            <h2 style={styles.screenTitle}>System Standby</h2>
+            <p style={styles.screenSubtitle}>
+              Please select a state and city to configure regional substations.
+            </p>
+          </div>
+        ) : (
+          <>
+            <h2 style={{ ...styles.screenTitle, fontSize: "1.8rem" }}>Available Nodes</h2>
+            <p style={styles.screenSubtitle}>Select a substation to initialize local dashboard.</p>
+
+            <div style={styles.substationGrid}>
+              {SUBSTATIONS.map((station) => (
+                <div
+                  key={station.id}
+                  style={{
+                    ...styles.substationCard,
+                    background: station.color,
+                    // Apply default glow based on the station's color
+                    boxShadow: `0 0 25px ${station.glow}, inset 0 0 15px rgba(255,255,255,0.2)`
+                  }}
+                  onClick={() => openSubstationDashboard(station)}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = "translateY(-15px) scale(1.03)";
+                    // Intensify the glow on hover
+                    e.currentTarget.style.boxShadow = `0 0 50px ${station.glow}, inset 0 0 25px rgba(255,255,255,0.4)`;
+                    e.currentTarget.style.borderColor = "#fff";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = "translateY(0) scale(1)";
+                    // Return to default glow
+                    e.currentTarget.style.boxShadow = `0 0 25px ${station.glow}, inset 0 0 15px rgba(255,255,255,0.2)`;
+                    e.currentTarget.style.borderColor = "rgba(255,255,255,0.2)";
+                  }}
+                >
+                  <div style={styles.cardIcon}>{station.icon}</div>
+                  <div style={styles.cardName}>{station.name}</div>
+                </div>
+              ))}
+            </div>
+          </>
         )}
       </div>
 
-      {/* --- Main Embedded Display --- */}
-      <div style={styles.viewFrame}>
-        <div style={styles.standbyScreen}>
-          <h2 style={styles.screenTitle}>System Standby</h2>
-          {selectedCity ? (
-            <p style={{ ...styles.screenSubtitle, color: "#00f2fe", fontWeight: "500" }}>
-              Region locked to {selectedCity}. Ready to initialize monitoring.
-            </p>
-          ) : (
-            <p style={styles.screenSubtitle}>
-              Please select a geographic parameter above to view grid telemetry.
-            </p>
-          )}
-        </div>
-      </div>
-
-      {/* --- Footer Status --- */}
+      {/* FOOTER */}
       <div style={styles.footer}>
-        <span>{selectedCity ? `Target: ${selectedCity}, ${selectedState}` : "Status: Awaiting Configuration"}</span>
-        <span>Secure Session</span>
+        <span>
+          {selectedCity
+            ? `TARGET LOCK: ${selectedCity.toUpperCase()} // ${selectedState.toUpperCase()}`
+            : "AWAITING CONFIGURATION"}
+        </span>
+        <span style={{ display: "flex", gap: "15px" }}>
+          <span>NODE: v2.4.2</span>
+          <span>SECURE SESSION ENCRYPTED</span>
+        </span>
       </div>
     </div>
   );
