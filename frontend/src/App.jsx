@@ -13,9 +13,9 @@ export default function App() {
 
       <Routes>
         <Route path="/" element={<Landing/>} />
-        <Route path="/National" element={<NationalGrid />} />
+        <Route path="/national" element={<NationalGrid />} />
 
-        <Route path="/city/:cityId" element={<DashboardLayout />} />
+        <Route path="/dashboard/:cityId" element={<DashboardLayout />} />
 
         <Route path="/meter/:meterId" element={<MeterView />} />
 

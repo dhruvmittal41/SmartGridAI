@@ -1,19 +1,41 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
-export default function AlertsPanel() {
-  const logs = [
-    { time: "18:29:42", type: "INFO", msg: "Uplink established." },
-    { time: "18:28:15", type: "WARN", msg: "Voltage drop detected at S1-T2." },
-    { time: "18:25:00", type: "INFO", msg: "Routine ping: All nodes nominal." },
-    { time: "18:12:04", type: "ERR", msg: "Comm failure at Meter M41. Retrying..." },
-    { time: "18:12:06", type: "INFO", msg: "Comm restored at Meter M41." },
-    { time: "17:59:22", type: "INFO", msg: "Grid frequency stable at 50.02Hz." },
-  ];
+export default function AlertsPanel({ gridData }) {
+  const [logs, setLogs] = useState([
+    { time: new Date().toLocaleTimeString('en-GB'), type: "INFO", msg: "Uplink established. Awaiting telemetry..." }
+  ]);
+
+  useEffect(() => {
+    if (!gridData) return;
+
+    const { ml_analysis, meter_id, raw_metrics } = gridData;
+    const now = new Date().toLocaleTimeString('en-GB');
+
+    // If the LSTM caught something, log an ERR or WARN
+    if (ml_analysis.is_anomaly && ml_analysis.status !== "normal") {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setLogs(prev => [
+        { 
+          time: now, 
+          type: "ERR", 
+          msg: `CRITICAL: ${ml_analysis.status.toUpperCase()} detected at ${meter_id}. Volts: ${raw_metrics.voltage}V` 
+        },
+        ...prev
+      ].slice(0, 50)); // Keep only the last 50 logs so the browser doesn't crash
+    } 
+    // Just to keep the console looking alive, log a routine ping every 10 messages
+    else if (Math.random() > 0.9) { 
+      setLogs(prev => [
+        { time: now, type: "INFO", msg: `Routine ping: ${meter_id} nominal.` },
+        ...prev
+      ].slice(0, 50));
+    }
+  }, [gridData]);
 
   const getColor = (type) => {
-    if (type === "ERR") return "#ff003c"; // Red
-    if (type === "WARN") return "#ffb000"; // Amber
-    return "#00ffff"; // Cyan for INFO
+    if (type === "ERR") return "#ff003c"; 
+    if (type === "WARN") return "#ffb000"; 
+    return "#00ffff"; 
   };
 
   return (
@@ -33,7 +55,7 @@ export default function AlertsPanel() {
           <div key={idx} style={{ display: "flex", gap: "10px" }}>
             <span style={{ opacity: 0.5 }}>[{log.time}]</span>
             <span style={{ color: getColor(log.type), width: "40px" }}>{log.type}</span>
-            <span style={{ color: "#00ff41" }}>{log.msg}</span>
+            <span style={{ color: getColor(log.type) }}>{log.msg}</span>
           </div>
         ))}
       </div>

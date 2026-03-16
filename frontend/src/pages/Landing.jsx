@@ -4,37 +4,10 @@ import electricityImg from "../assets/electricity.png";
 
 export default function LandingPage(){
 
-  const [count1,setCount1]=useState(0);
-  const [count2,setCount2]=useState(0);
+
   const sectionsRef = useRef([]);
 
-  useEffect(()=>{
-    let c1=0;
-    let c2=0;
-
-    const i1=setInterval(()=>{
-      c1+=500;
-      if(c1>=50000){
-        c1=50000;
-        clearInterval(i1);
-      }
-      setCount1(c1);
-    },20);
-
-    const i2=setInterval(()=>{
-      c2+=1;
-      if(c2>=95){
-        c2=95;
-        clearInterval(i2);
-      }
-      setCount2(c2);
-    },40);
-
-    return ()=>{
-      clearInterval(i1);
-      clearInterval(i2);
-    }
-  },[]);
+ 
 
   useEffect(()=>{
     const observer = new IntersectionObserver(
@@ -387,7 +360,7 @@ width:320px;
 
 <p>
 Monitor electricity grids in real time, detect anomalies, and predict
-failures using advanced AI models. GridGuard AI helps maintain
+failures using advanced AI models.  Smart Grid AI helps maintain
 reliable and efficient power infrastructure.
 </p>
 
@@ -448,37 +421,6 @@ potential failures before they disrupt power distribution.
 
 </section>
 
-{/* STATS */}
-
-<section id="stats" ref={addRef} className="reveal">
-
-<h2>Platform Impact</h2>
-
-<div className="stats-grid">
-
-<div className="stat-card">
-<h3>{count1.toLocaleString()}+</h3>
-<p>Data Records Processed</p>
-</div>
-
-<div className="stat-card">
-<h3>{count2}%</h3>
-<p>Prediction Accuracy</p>
-</div>
-
-<div className="stat-card">
-<h3>24/7</h3>
-<p>Real-Time Monitoring</p>
-</div>
-
-<div className="stat-card">
-<h3>AI</h3>
-<p>Powered Intelligence</p>
-</div>
-
-</div>
-
-</section>
 
 {/* CTA */}
 
