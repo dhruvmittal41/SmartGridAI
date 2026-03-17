@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+// eslint-disable-next-line no-unused-vars
 import { useEffect, useState, useRef } from "react";
 import electricityImg from "../assets/electricity.png";
 
@@ -338,19 +339,17 @@ width:320px;
 
 <div className="grid-bg"></div>
 
-{/* NAVBAR */}
-
 <div className="navbar">
 <div className="logo">⚡ SmartGrid AI</div>
 
 <div className="nav-links">
 <a href="#features">Features</a>
 <a href="#about">About</a>
-{/* <a href="#stats">Stats</a> */}
+
 </div>
 </div>
 
-{/* HERO */}
+
 
 <div className="hero">
 
@@ -374,7 +373,6 @@ reliable and efficient power infrastructure.
 
 </div>
 
-{/* FEATURES */}
 
 <section id="features" ref={addRef} className="reveal">
 
@@ -406,7 +404,7 @@ reliable and efficient power infrastructure.
 
 </section>
 
-{/* ABOUT */}
+
 
 <section id="about" ref={addRef} className="reveal">
 
@@ -422,7 +420,7 @@ potential failures before they disrupt power distribution.
 </section>
 
 
-{/* CTA */}
+
 
 <section className="cta reveal" ref={addRef}>
 
@@ -436,7 +434,7 @@ potential failures before they disrupt power distribution.
 
 </section>
 
-{/* FOOTER */}
+
 
 <div className="footer">
 © 2026 GridGuard AI — Intelligent Power Grid Monitoring

@@ -1,6 +1,6 @@
 import { writeFileSync } from 'fs';
 
-// Base coordinates for your 5 cities
+
 const cities = {
   aligarh: { name: "Aligarh", prefix: "ALI", center: [27.8974, 78.0880] },
   delhi: { name: "New Delhi", prefix: "DEL", center: [28.6139, 77.2090] },
@@ -9,7 +9,7 @@ const cities = {
   chennai: { name: "Chennai", prefix: "CHE", center: [13.0827, 80.2707] }
 };
 
-// Helper to spread equipment out geographically
+
 const applyOffset = (coord, maxOffset) => coord + (Math.random() - 0.5) * maxOffset;
 
 const database = {};
@@ -21,7 +21,7 @@ for (const [cityKey, cityInfo] of Object.entries(cities)) {
     substations: []
   };
 
-  // 3 Substations per city
+
   for (let s = 1; s <= 3; s++) {
     const subLat = applyOffset(cityInfo.center[0], 0.08);
     const subLng = applyOffset(cityInfo.center[1], 0.08);
@@ -35,7 +35,7 @@ for (const [cityKey, cityInfo] of Object.entries(cities)) {
       transformers: []
     };
 
-    // 4 Transformers per substation
+ 
     for (let t = 1; t <= 4; t++) {
       const transLat = applyOffset(subLat, 0.02);
       const transLng = applyOffset(subLng, 0.02);
@@ -49,7 +49,7 @@ for (const [cityKey, cityInfo] of Object.entries(cities)) {
         meters: []
       };
 
-      // 10 Meters per transformer
+   
       for (let m = 1; m <= 10; m++) {
         const meterLat = applyOffset(transLat, 0.004);
         const meterLng = applyOffset(transLng, 0.004);
@@ -67,6 +67,6 @@ for (const [cityKey, cityInfo] of Object.entries(cities)) {
   }
 }
 
-// Write the massive JSON object to a file
+
 writeFileSync('gridData.json', JSON.stringify(database, null, 2));
 console.log("✅ Successfully generated gridData.json with 5 cities, 15 substations, 60 transformers, and 600 meters!");

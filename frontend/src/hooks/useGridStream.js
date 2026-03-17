@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 export function useGridStream() {
   const [gridData, setGridData] = useState(null);
-  const [gridHistory, setGridHistory] = useState([]); // <-- NEW STATE
+  const [gridHistory, setGridHistory] = useState([]); 
   const [isConnected, setIsConnected] = useState(false);
 
   useEffect(() => {
@@ -13,17 +13,17 @@ export function useGridStream() {
     ws.onmessage = (event) => {
       const payload = JSON.parse(event.data);
       
-      // 1. Set the single point for the Metrics Panel
+    
       setGridData(payload);
       
-      // 2. Accumulate the history for the Chart Panel asynchronously
+    
       setGridHistory((prev) => {
-        // Safety check
+
         if (!payload.raw_metrics) return prev;
         
         const timeStr = new Date(payload.timestamp).toLocaleTimeString('en-GB');
         const newData = [...prev, { time: timeStr, actualPower: payload.raw_metrics.power }];
-        return newData.slice(-15); // Keep last 15 ticks
+        return newData.slice(-15); 
       });
       
       if (payload.ml_analysis?.is_anomaly) {
@@ -36,6 +36,6 @@ export function useGridStream() {
     return () => ws.close();
   }, []);
 
-  // Return the history array alongside the single data point
+  
   return { gridData, gridHistory, isConnected }; 
 }

@@ -13,7 +13,7 @@ export default function DashboardLayout() {
   const [isFullScreen, setIsFullScreen] = useState(false);
   const [cityId, setCityId] = useState(cityIdFromUrl || "aligarh"); 
   
-  // Button hover states for inline styling
+  
   const [hoveredBtn, setHoveredBtn] = useState(null);
   
   useEffect(() => {
@@ -25,7 +25,7 @@ export default function DashboardLayout() {
 
   const { gridData, gridHistory, isConnected } = useGridStream();
 
-  // --- GLASSMORPHISM & DARK GRADIENT THEME ---
+ 
   const titleColor = "#ffffff"; 
   const textColor = "#e2e8f0";
   const subtextColor = "#94a3b8"; 
@@ -55,14 +55,14 @@ export default function DashboardLayout() {
       transition: "width 0.4s cubic-bezier(0.4, 0, 0.2, 1)", 
       opacity: isFullScreen ? 0 : 1, 
       visibility: isFullScreen ? "hidden" : "visible",
-      padding: isFullScreen ? "0" : "1.5rem 0.75rem 1.5rem 1.5rem", // Padding around the map to let the gradient show
+      padding: isFullScreen ? "0" : "1.5rem 0.75rem 1.5rem 1.5rem", 
       boxSizing: "border-box"
     },
     mapWrapper: {
       width: "100%",
       height: "100%",
       borderRadius: "16px",
-      overflow: "hidden", // Ensures the map respects the rounded corners
+      overflow: "hidden", 
       boxShadow: "0 8px 32px 0 rgba(0, 0, 0, 0.3)",
       border: "1px solid rgba(255, 255, 255, 0.08)",
     },
@@ -163,38 +163,21 @@ export default function DashboardLayout() {
   return (
     <div style={styles.container}>
       
-      {/* --- Left Half: Map --- */}
+    
       <div style={styles.mapSection}>
         <div style={styles.mapWrapper}>
           <CityGridMap cityId={cityId} /> 
         </div>
       </div>
 
-      {/* --- Right Half: Telemetry Dashboard --- */}
       <div style={styles.dashboardSection}>
         
-        {/* --- Header Panel --- */}
+      
         <div style={styles.header}>
           <div style={styles.headerLeft}>
-            <div style={styles.title}>Telemetry Stream</div>
+            <div style={styles.title}>Data Stream</div>
             <span style={styles.statusDot} title={isConnected ? "WebSocket Connected" : "Disconnected"}></span>
             
-            {/* {!isFullScreen && (
-              <select 
-                style={styles.select} 
-                value={cityId} 
-                onChange={(e) => {
-                  setCityId(e.target.value);
-                  navigate(`/dashboard/${e.target.value}`);
-                }}
-              >
-                <option value="aligarh" style={{color: "#000"}}>Aligarh</option>
-                <option value="new-delhi" style={{color: "#000"}}>New Delhi</option>
-                <option value="bengaluru" style={{color: "#000"}}>Bengaluru</option>
-                <option value="mumbai" style={{color: "#000"}}>Mumbai</option>
-                <option value="chennai" style={{color: "#000"}}>Chennai</option>
-              </select>
-            )} */}
           </div>
 
           <div style={styles.headerRight}>
@@ -217,9 +200,7 @@ export default function DashboardLayout() {
           </div>
         </div>
 
-        {/* --- Data Panels --- */}
-        {/* Note: You may need to update the internal styling of MetricsPanel, EnergyChart, and AlertsPanel to match the new theme later */}
-        
+       
         <MetricsPanel gridData={gridData} />
         
         <div style={styles.chartContainer}>

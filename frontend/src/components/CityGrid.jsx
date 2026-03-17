@@ -5,7 +5,7 @@ import "leaflet/dist/leaflet.css";
 
 import { getCityGrid } from "../data/cityGrid";
 
-// --- 1. Vibrant Glassmorphism Styled Icons ---
+
 const createSubstationIcon = (label, isExpanded) => L.divIcon({
   className: "custom-leaflet-icon",
   html: `
@@ -31,6 +31,7 @@ const createSubstationIcon = (label, isExpanded) => L.divIcon({
   iconAnchor: [50, 50],
 });
 
+// eslint-disable-next-line no-unused-vars
 const createTransformerIcon = (label, isExpanded) => L.divIcon({
   className: "custom-leaflet-icon",
   html: `
@@ -74,13 +75,13 @@ const createMeterIcon = (label) => L.divIcon({
   iconAnchor: [20, 10],
 });
 
-// --- 2. Main Map Component ---
+
 export default function CityGridMap({ cityId, substationId }) {
   const [time, setTime] = useState(new Date().toISOString());
   const [expandedSubstations, setExpandedSubstations] = useState([]);
   const [expandedTransformers, setExpandedTransformers] = useState([]);
 
-  // Telemetry Clock
+
   useEffect(() => {
     const timer = setInterval(() => setTime(new Date().toISOString()), 1000);
     return () => clearInterval(timer);
@@ -88,15 +89,16 @@ export default function CityGridMap({ cityId, substationId }) {
 
   const grid = useMemo(() => getCityGrid(cityId), [cityId]);
 
-  // Isolate the specific substation selected by the user
+
   const targetSubstation = useMemo(() => {
     if (!grid || !grid.substations || grid.substations.length === 0) return null;
     return grid.substations.find(s => s.id === substationId) || grid.substations[0];
   }, [grid, substationId]);
 
-  // Auto-expand the target substation when it loads
+ 
   useEffect(() => {
     if (targetSubstation) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setExpandedSubstations([targetSubstation.id]);
     }
     setExpandedTransformers([]);
@@ -116,7 +118,7 @@ export default function CityGridMap({ cityId, substationId }) {
 
   const lines = useMemo(() => {
     const edgeLines = [];
-    if (!grid || !targetSubstation) return edgeLines; // Safety check
+    if (!grid || !targetSubstation) return edgeLines;
 
     const getCoords = (id) => {
       const item = 
@@ -126,7 +128,6 @@ export default function CityGridMap({ cityId, substationId }) {
       return item ? [item.lat, item.lng] : null;
     };
 
-    // Substation to Transformers (Cyan dashed lines)
     grid.transformers.forEach((tr) => {
       if (expandedSubstations.includes(tr.parent) && tr.parent === targetSubstation.id) {
         const parentCoords = getCoords(tr.parent);
@@ -142,7 +143,7 @@ export default function CityGridMap({ cityId, substationId }) {
       }
     });
 
-    // Transformers to Meters (Teal solid lines)
+    
     grid.meters.forEach((m) => {
       const parentTransformer = grid.transformers.find(t => t.id === m.parent);
       if (expandedTransformers.includes(m.parent) && parentTransformer?.parent === targetSubstation.id) {
@@ -162,13 +163,12 @@ export default function CityGridMap({ cityId, substationId }) {
     return edgeLines;
   }, [grid, expandedSubstations, expandedTransformers, targetSubstation]);
 
-  // Determine the center of the map. 
-  // If we have a substation, center on it. If not, use the city center. If no city center, default to India.
+ 
   const mapCenter = targetSubstation 
     ? [targetSubstation.lat, targetSubstation.lng] 
     : (grid?.center || [28.6139, 77.2090]);
 
-  // Determine the zoom level. Closer if we have a substation, zoomed out if we are defaulting.
+  
   const mapZoom = targetSubstation ? 14 : (grid?.center ? 11 : 5);
 
   const styles = {
@@ -207,10 +207,10 @@ export default function CityGridMap({ cityId, substationId }) {
 
   return (
     <div style={styles.wrapper}>
-      {/* Telemetry Header */}
+
       <div style={styles.header}>
         <div style={{ fontSize: "1.4rem", fontWeight: "700", background: "linear-gradient(to right, #fff, #93c5fd)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-          NODE ISOLATION // {targetSubstation ? targetSubstation.label.toUpperCase() : "AWAITING COORDINATES"}
+          {targetSubstation ? targetSubstation.label.toUpperCase() : "AWAITING COORDINATES"}
         </div>
         <div style={{ textAlign: "right", fontSize: "0.95rem", color: "#94a3b8" }}>
           <div style={{ display: "flex", gap: "8px", alignItems: "center", justifyContent: "flex-end", marginBottom: "4px" }}>
@@ -218,7 +218,7 @@ export default function CityGridMap({ cityId, substationId }) {
               width: "10px", 
               height: "10px", 
               borderRadius: "50%", 
-              background: targetSubstation ? "#00f2fe" : "#f59e0b", // Yellow if missing
+              background: targetSubstation ? "#00f2fe" : "#f59e0b", 
               boxShadow: targetSubstation ? "0 0 12px #00f2fe" : "0 0 12px #f59e0b" 
             }}></span>
             <span style={{ color: "#f8fafc", fontWeight: "600" }}>
@@ -237,13 +237,11 @@ export default function CityGridMap({ cityId, substationId }) {
           style={{ height: "100%", width: "100%", zIndex: 0, backgroundColor: "#020617" }}
           zoomControl={true}
         >
-          {/* CartoDB Dark Matter Base Map */}
           <TileLayer
             attribution='&copy; <a href="https://carto.com/">CARTO</a>'
             url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
           />
 
-          {/* Lines */}
           {lines.map((line) => (
             <Polyline 
               key={line.id} 
@@ -252,7 +250,6 @@ export default function CityGridMap({ cityId, substationId }) {
             />
           ))}
 
-          {/* Conditional Rendering: Only show markers if targetSubstation exists */}
           {targetSubstation && (
             <>
               <Marker 
@@ -272,7 +269,7 @@ export default function CityGridMap({ cityId, substationId }) {
                 </Popup>
               </Marker>
 
-              {/* Transformers */}
+           
               {grid.transformers
                 .filter(tr => tr.parent === targetSubstation.id && expandedSubstations.includes(tr.parent))
                 .map((tr) => {
@@ -296,7 +293,7 @@ export default function CityGridMap({ cityId, substationId }) {
                   );
                 })}
 
-              {/* Meters */}
+         
               {grid.meters
                 .filter(m => {
                   const parentTr = grid.transformers.find(t => t.id === m.parent);

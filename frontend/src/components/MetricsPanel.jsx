@@ -1,11 +1,11 @@
 import React from "react";
 
 export default function MetricsPanel({ gridData }) {
-  // Safe fallbacks before the first WebSocket message arrives
+ 
   const raw = gridData?.raw_metrics || { voltage: 0, current: 0, energy_kwh: 0, frequency: 0 };
   const ml = gridData?.ml_analysis || { status: "AWAITING_DATA", is_anomaly: false };
 
-  // Determine colors based on AI status
+ 
   const isDanger = ml.is_anomaly && ml.status !== "normal";
   const mainColor = isDanger ? "#ff003c" : "#00ff41";
 

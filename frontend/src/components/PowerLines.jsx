@@ -8,7 +8,7 @@ const FlowingLine = ({ positions, color = "cyan" }) => {
   useEffect(() => {
     let animationFrame;
     const animate = () => {
-      setOffset((prev) => (prev - 1) % 20); // Adjust speed by changing the decrement
+      setOffset((prev) => (prev - 1) % 20); 
       animationFrame = requestAnimationFrame(animate);
     };
     animationFrame = requestAnimationFrame(animate);
@@ -39,15 +39,14 @@ export default function PowerLines() {
         const coords = [getCoords(line.from), getCoords(line.to)];
         
         return (
-          // Use Fragment instead of div to prevent Leaflet rendering bugs
+       
           <Fragment key={i}>
-            {/* Background Glow (Static) */}
+          
             <Polyline 
               positions={coords} 
               pathOptions={{ color: "green", weight: 6, opacity: 0.2 }} 
             />
             
-            {/* Animated Flowing Power */}
             <FlowingLine 
               positions={coords} 
               color={line.load > 80 ? "red" : "#00ffff"} 

@@ -10,7 +10,6 @@ const REGIONAL_DATA = {
   "Tamil Nadu": ["Chennai", "Coimbatore", "Madurai"]
 };
 
-// Added 'glow' properties to match the gradients
 const SUBSTATIONS = [
   {
     id: "substation1",
@@ -24,14 +23,14 @@ const SUBSTATIONS = [
     name: "Substation 2",
     color: "linear-gradient(135deg, #00c6ff 0%, #0072ff 100%)",
     glow: "rgba(0, 198, 255, 0.6)",
-    icon: "🔌"
+    icon: "⚡"
   },
   {
     id: "substation3",
     name: "Substation 3",
     color: "linear-gradient(135deg, #00f260 0%, #0575e6 100%)",
     glow: "rgba(0, 242, 96, 0.6)",
-    icon: "🔋"
+    icon: "⚡"
   }
 ];
 
@@ -80,7 +79,7 @@ export default function SystemNavigator() {
 
   const styles = {
     wrapper: {
-      // Kept the same dark space background
+    
       background: "radial-gradient(circle at top, #1e1e38, #0f172a, #020617)",
       color: "#e2e8f0",
       fontFamily: "'Inter', system-ui, -apple-system, sans-serif",
@@ -92,7 +91,6 @@ export default function SystemNavigator() {
       boxSizing: "border-box"
     },
 
-    // Base glass properties shared among sections
     baseGlass: {
       backdropFilter: "blur(16px)",
       WebkitBackdropFilter: "blur(16px)",
@@ -105,7 +103,6 @@ export default function SystemNavigator() {
       justifyContent: "space-between",
       alignItems: "center",
       padding: "1.2rem 2rem",
-      // Purple tint
       background: "rgba(88, 28, 135, 0.35)", 
       border: "1px solid rgba(168, 85, 247, 0.4)",
     },
@@ -141,13 +138,12 @@ export default function SystemNavigator() {
       gap: "20px",
       alignItems: "center",
       padding: "1.5rem 2rem",
-      // Teal tint
       background: "rgba(15, 118, 110, 0.35)", 
       border: "1px solid rgba(45, 212, 191, 0.4)",
     },
 
     selectBox: {
-      background: "rgba(2, 44, 34, 0.8)", // Darker inner teal
+      background: "rgba(2, 44, 34, 0.8)", 
       color: "#ccfbf1",
       border: "1px solid rgba(45, 212, 191, 0.3)",
       padding: "14px 20px",
@@ -165,7 +161,6 @@ export default function SystemNavigator() {
       padding: "2rem",
       display: "flex",
       flexDirection: "column",
-      // Royal blue tint
       background: "rgba(30, 58, 138, 0.25)", 
       border: "1px solid rgba(96, 165, 250, 0.4)",
     },
@@ -194,7 +189,7 @@ export default function SystemNavigator() {
     substationGrid: {
       display: "grid",
       gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-      gap: "2.5rem", // Slightly larger gap to accommodate the big glows
+      gap: "2.5rem",
       marginTop: "1.5rem",
       flexGrow: 1 
     },
@@ -238,7 +233,7 @@ export default function SystemNavigator() {
 
   return (
     <div style={styles.wrapper}>
-      {/* HEADER - Purple Theme */}
+  
       <div style={{ ...styles.baseGlass, ...styles.header }}>
         <div style={styles.title}>Regional Grid Management</div>
 
@@ -251,7 +246,7 @@ export default function SystemNavigator() {
         </div>
       </div>
 
-      {/* CONTROLS - Teal Theme */}
+      
       <div style={{ ...styles.baseGlass, ...styles.controlsArea }}>
         <select
           style={styles.selectBox}
@@ -282,7 +277,7 @@ export default function SystemNavigator() {
         </select>
       </div>
 
-      {/* MAIN AREA - Blue Theme */}
+ 
       <div style={{ ...styles.baseGlass, ...styles.viewFrame }}>
         {!selectedCity ? (
           <div style={styles.standbyScreen}>
@@ -304,19 +299,19 @@ export default function SystemNavigator() {
                   style={{
                     ...styles.substationCard,
                     background: station.color,
-                    // Apply default glow based on the station's color
+                  
                     boxShadow: `0 0 25px ${station.glow}, inset 0 0 15px rgba(255,255,255,0.2)`
                   }}
                   onClick={() => openSubstationDashboard(station)}
                   onMouseEnter={(e) => {
                     e.currentTarget.style.transform = "translateY(-15px) scale(1.03)";
-                    // Intensify the glow on hover
+                 
                     e.currentTarget.style.boxShadow = `0 0 50px ${station.glow}, inset 0 0 25px rgba(255,255,255,0.4)`;
                     e.currentTarget.style.borderColor = "#fff";
                   }}
                   onMouseLeave={(e) => {
                     e.currentTarget.style.transform = "translateY(0) scale(1)";
-                    // Return to default glow
+                
                     e.currentTarget.style.boxShadow = `0 0 25px ${station.glow}, inset 0 0 15px rgba(255,255,255,0.2)`;
                     e.currentTarget.style.borderColor = "rgba(255,255,255,0.2)";
                   }}
@@ -330,7 +325,7 @@ export default function SystemNavigator() {
         )}
       </div>
 
-      {/* FOOTER */}
+     
       <div style={styles.footer}>
         <span>
           {selectedCity

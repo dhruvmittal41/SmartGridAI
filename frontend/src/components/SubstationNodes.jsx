@@ -53,7 +53,7 @@ const pulsingStyle = `
   }
 `;
 
-// Wrap our HTML in the new .sensor-node div
+
 const createCyberIcon = () => L.divIcon({
   className: 'clear-leaflet-icon',
   html: `<div class="sensor-node">

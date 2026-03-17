@@ -3,7 +3,7 @@ import gridDatabase from './gridData.json';
 export function getCityGrid(cityId) {
   const cityData = gridDatabase[cityId];
 
-  // Fallback if the city isn't found
+
   if (!cityData) {
     console.warn(`City ID "${cityId}" not found in database.`);
     return { center: [28.6139, 77.2090], substations: [], transformers: [], meters: [] };
@@ -13,7 +13,7 @@ export function getCityGrid(cityId) {
   const transformers = [];
   const meters = [];
 
-  // Flatten the nested JSON into distinct arrays
+
   cityData.substations.forEach((sub) => {
     substations.push({
       id: sub.id,
@@ -28,7 +28,7 @@ export function getCityGrid(cityId) {
         transformers.push({
           id: tr.id,
           type: "transformer",
-          parent: sub.id, // Link back to the substation
+          parent: sub.id, 
           label: tr.label,
           lat: tr.lat,
           lng: tr.lng
@@ -39,7 +39,7 @@ export function getCityGrid(cityId) {
             meters.push({
               id: m.id,
               type: "meter",
-              parent: tr.id, // Link back to the transformer
+              parent: tr.id, 
               label: m.label,
               lat: m.lat,
               lng: m.lng
@@ -51,7 +51,7 @@ export function getCityGrid(cityId) {
   });
 
   return {
-    center: cityData.center, // Passing the exact map center from JSON
+    center: cityData.center, 
     substations,
     transformers,
     meters
