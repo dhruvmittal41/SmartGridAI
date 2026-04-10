@@ -1,0 +1,5 @@
+# Ignore credentials folder
+credentials/
+
+# Ignore specific secret file
+credentials/serviceAccountKey.JSON
